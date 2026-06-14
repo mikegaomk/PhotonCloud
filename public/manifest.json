@@ -1,0 +1,12 @@
+{
+  "name": "光芯云 PhotonCloud",
+  "short_name": "PhotonCloud",
+  "description": "国产光芯片设计第一云平台 - 云原生仿真引擎 + 国产Foundry PDK聚合",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#4f46e5",
+  "icons": [
+    { "src": "/vite.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

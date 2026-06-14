@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4f46e5" />
+    <meta name="description" content="光芯云 PhotonCloud - 国产光芯片设计第一云平台。云原生仿真引擎 + 国产Foundry PDK聚合，从设计到流片一站式服务。" />
+    <meta property="og:title" content="光芯云 PhotonCloud" />
+    <meta property="og:description" content="国产光芯片设计第一云平台 - 云原生仿真引擎 + 国产Foundry PDK聚合" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://photoncloud.cn" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>光芯云 PhotonCloud | 国产光芯片设计第一云平台</title>
+  </head>
+  <body class="bg-gray-50">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {})
+        })
+      }
+    </script>
+  </body>
+</html>

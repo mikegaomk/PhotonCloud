@@ -1,0 +1,8 @@
+# Development/testing dependencies
+-r requirements.txt
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+hypothesis>=6.82.0
+httpx>=0.24.0
+pytest-httpserver>=1.0.0
+factory-boy>=3.3.0
