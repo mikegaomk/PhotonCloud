@@ -1,10 +1,5 @@
 backend/
-*.pyc
-*.py
-__pycache__/
 .venv/
-requirements*.txt
-alembic/
-alembic.ini
+__pycache__/
 Dockerfile
 Dockerfile.frontend
