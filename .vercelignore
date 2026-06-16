@@ -1,4 +1,10 @@
 backend/
 *.pyc
+*.py
 __pycache__/
 .venv/
+requirements*.txt
+alembic/
+alembic.ini
+Dockerfile
+Dockerfile.frontend
