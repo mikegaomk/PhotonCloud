@@ -44,20 +44,32 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
-    {
-  id: 'n999',  // 唯一ID
-  title: '新闻标题',
-  summary: '一两句摘要',
-  source: '来源名称',
-  sourceUrl: 'https://...',
-  date: '2026-06-17',
-  category: 'research',  // industry/research/policy/funding/product/standard
-  region: 'china',       // global/china/us/europe/japan/korea
-  chipTags: ['Silicon Photonics', 'CPO'],
-  importance: 'high',    // high/medium/low
-  content: `详细内容，支持 Markdown 格式...`
-}
-
+    id: 'n1',
+    title: 'NVIDIA 宣布下一代 AI GPU 将全面采用 CPO 光互连',
+    summary: 'NVIDIA 在 GTC 2026 上发布 Blackwell Ultra 架构路线图...',
+    source: 'NVIDIA GTC 2026',
+    sourceUrl: 'https://nvidia.com',
+    date: '2026-06-02',
+    category: 'product',
+    region: 'us',
+    chipTags: ['CPO', 'Silicon Photonics'],
+    importance: 'high',
+    content: `NVIDIA CEO 黄仁勋在 GTC 2026 主题演讲中宣布...`
+  },
+  {
+    id: 'n999',
+    title: '新闻标题',
+    summary: '一两句摘要',
+    source: '来源名称',
+    sourceUrl: 'https://...',
+    date: '2026-06-17',
+    category: 'research',
+    region: 'china',
+    chipTags: ['Silicon Photonics', 'CPO'],
+    importance: 'high',
+    content: `详细内容，支持 Markdown 格式...`
+  }
+]
 
 ## 关键信息
 
