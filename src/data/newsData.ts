@@ -468,6 +468,111 @@ Broadcom、Intel、NVIDIA、Ayar Labs、Ranovus、Marvell、Cisco、Google、Mic
 
 统一标准将促进 CPO 生态系统形成，使不同厂商的光引擎和 ASIC 可以互操作，降低系统集成风险和成本。`,
   },
+  {
+    id: 'n13',
+    title: '硅光产业面临规模化挑战：CORNERSTONE 报告揭示 465 亿美元市场的关键瓶颈',
+    summary: '硅光子技术预计到 2035 年将产生至少 465 亿美元收入，但众多企业在从研发走向量产的过程中面临严峻挑战。',
+    source: 'New Electronics / CORNERSTONE',
+    sourceUrl: 'https://www.newelectronics.co.uk/content/blogs/silicon-photonics-growth-risks-constrained-by-scale-up-challenges',
+    date: '2026-06-17',
+    category: 'industry',
+    region: 'global',
+    chipTags: ['Silicon Photonics', 'CPO'],
+    importance: 'high',
+    content: `CORNERSTONE 最新市场研究报告指出，硅光子技术正处于关键十字路口。
+
+## 核心发现
+
+- 硅光子技术预计到 2035 年将产生至少 465 亿美元收入
+- 该技术日益被视为国家科技战略的关键组成部分
+- 然而许多企业在从开发阶段迈向量产时遇到重大困难
+
+## 主要挑战
+
+- 制造良率从实验室到工厂的转化
+- 测试和封装成本控制
+- 设计工具和 PDK 生态系统不够成熟
+- 人才短缺
+
+## 市场趋势
+
+AI 数据中心需求正在加速硅光产业化进程，CPO（共封装光学）和 800G/1.6T 模块成为主要增长驱动力。`,
+  },
+  {
+    id: 'n14',
+    title: '中国成立光子学国家实验室：以光芯片突破 AI 算力瓶颈',
+    summary: '面对美国芯片出口管制，中国启动光子计算国家实验室，目标用光芯片为 AI 训练提供替代算力路径。',
+    source: 'South China Morning Post',
+    sourceUrl: 'https://www.scmp.com/tech/tech-war/article/3356901/facing-us-chip-curbs-china-launches-photonics-lab-power-ai-light',
+    date: '2026-06-12',
+    category: 'policy',
+    region: 'china',
+    chipTags: ['Photonic Computing', 'Silicon Photonics', 'AI Accelerator'],
+    importance: 'high',
+    content: `面对美国持续升级的芯片出口管制，中国正式启动光子计算国家实验室。
+
+## 背景
+
+全球科技公司竞相争夺训练和运行日益复杂 AI 模型所需的大规模算力。传统硅半导体在能耗和性能方面正逼近物理极限。
+
+## 战略意义
+
+- 光子计算提供了绕过传统芯片限制的替代路径
+- 光芯片在特定 AI 工作负载上具有数量级的能效优势
+- 中国希望在光子 AI 加速领域建立自主技术体系
+
+## 研究方向
+
+- 光子矩阵乘法加速器
+- 光电混合 AI 推理芯片
+- 硅光互连与光计算融合架构`,
+  },
+  {
+    id: 'n15',
+    title: '新型全集成光芯片：单片实现光生成、调控和探测',
+    summary: '科学家创造出可在单个芯片上同时生成、引导和读取光信息的器件，是迈向超快低能耗计算的重大突破。',
+    source: 'Science Daily',
+    sourceUrl: 'https://www.sciencedaily.com/releases/2026/06/260601025343.htm',
+    date: '2026-06-01',
+    category: 'research',
+    region: 'us',
+    chipTags: ['Photonic Integration', 'Quantum Computing', 'AI Accelerator'],
+    importance: 'high',
+    content: `科学家创造了一种微型芯片，能在单一器件上同时生成、引导和读取光信息，标志着向超快、低能耗计算迈出重大一步。
+
+## 技术突破
+
+- 首次在单个芯片上集成光源、调制器和探测器
+- 无需外部激光器或光耦合
+- 适用于 AI 加速和量子计算
+
+## 意义
+
+这一成果解决了光子集成中的核心瓶颈——异构光源集成问题，为全光计算处理器的实现铺平道路。`,
+  },
+  {
+    id: 'n16',
+    title: 'ASU 获 NSF CAREER 奖：开发开源光电芯片设计自动化平台',
+    summary: '亚利桑那州立大学获 NSF 资助，开发开源电子-光子协同设计自动化生态系统，推动下一代光芯片设计民主化。',
+    source: 'Arizona State University',
+    sourceUrl: 'https://ecee.engineering.asu.edu/2026/06/16/illuminating-the-future-of-photonic-ai-chip-design/',
+    date: '2026-06-16',
+    category: 'research',
+    region: 'us',
+    chipTags: ['EDA', 'Photonic Design', 'Open Source'],
+    importance: 'medium',
+    content: `亚利桑那州立大学 Fulton 工程学院获得 2026 年 NSF CAREER 奖，用于开发开源电子-光子设计自动化 (EPDA) 生态系统。
+
+## 项目目标
+
+- 建立开源的光子芯片 EDA 工具链
+- 降低光子集成电路设计门槛
+- 促进学术界和产业界的光芯片创新
+
+## 意义
+
+目前光子芯片设计工具主要由少数商业公司垄断，开源 EPDA 工具将使更多研究者和初创公司能够参与光子芯片设计，加速整个行业的创新速度。`,
+  },
 ]
 
 const initialUpdates: TechUpdate[] = [
