@@ -166,11 +166,13 @@ def format_news_entry(article):
     chip_tags = json.dumps(article['chipTags'], ensure_ascii=False)
     # Escape backticks in content
     content = article['content'].replace('`', "'")
+    title = article['title'].replace("'", "\\'")
+    summary = article['summary'].replace("'", "\\'")
     
     return f"""  {{
     id: '{article['id']}',
-    title: '{article['title'].replace("'", "\\'")}',
-    summary: '{article['summary'].replace("'", "\\'")}',
+    title: '{title}',
+    summary: '{summary}',
     source: '{article['source']}',
     sourceUrl: '{article['sourceUrl']}',
     date: '{article['date']}',
