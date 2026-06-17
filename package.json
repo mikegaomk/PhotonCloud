@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "description": "光芯片互动平台 - Photonics Interactive Platform",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "vercel-build": "vite build",
     "preview": "vite preview"
   },
