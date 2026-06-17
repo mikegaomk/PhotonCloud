@@ -68,8 +68,19 @@ const initialNews: NewsItem[] = [
     chipTags: ['Silicon Photonics', 'CPO'],
     importance: 'high',
     content: `详细内容，支持 Markdown 格式...`
-  }
-]
+  },
+  {
+    id: 'n1',
+    title: 'NVIDIA 宣布下一代 AI GPU 将全面采用 CPO 光互连',
+    summary: 'NVIDIA 在 GTC 2026 上发布 Blackwell Ultra 架构路线图，确认 2027 年 GPU 集群将标配 CPO 光 I/O，单 GPU 光互连带宽达 3.2 Tbps。',
+    source: 'NVIDIA GTC 2026',
+    sourceUrl: 'https://nvidia.com',
+    date: '2026-06-02',
+    category: 'product',
+    region: 'us',
+    chipTags: ['CPO', 'Silicon Photonics'],
+    importance: 'high',
+    content: `NVIDIA CEO 黄仁勋在 GTC 2026 主题演讲中宣布，下一代 Blackwell Ultra GPU 将原生支持 Co-Packaged Optics (CPO) 光互连。
 
 ## 关键信息
 
