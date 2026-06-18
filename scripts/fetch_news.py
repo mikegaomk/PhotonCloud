@@ -164,24 +164,26 @@ def get_existing_ids(content):
 def format_news_entry(article):
     """Format a single news article as TypeScript object"""
     chip_tags = json.dumps(article['chipTags'], ensure_ascii=False)
-    # Escape backticks in content
     content = article['content'].replace('`', "'")
     title = article['title'].replace("'", "\\'")
     summary = article['summary'].replace("'", "\\'")
     
-    return f"""  {{
-    id: '{article['id']}',
-    title: '{title}',
-    summary: '{summary}',
-    source: '{article['source']}',
-    sourceUrl: '{article['sourceUrl']}',
-    date: '{article['date']}',
-    category: '{article['category']}',
-    region: '{article['region']}',
-    chipTags: {chip_tags},
-    importance: '{article['importance']}',
-    content: `{content}`,
-  }}"""
+    lines = [
+        "  {",
+        "    id: '" + article['id'] + "',",
+        "    title: '" + title + "',",
+        "    summary: '" + summary + "',",
+        "    source: '" + article['source'] + "',",
+        "    sourceUrl: '" + article['sourceUrl'] + "',",
+        "    date: '" + article['date'] + "',",
+        "    category: '" + article['category'] + "',",
+        "    region: '" + article['region'] + "',",
+        "    chipTags: " + chip_tags + ",",
+        "    importance: '" + article['importance'] + "',",
+        "    content: `" + content + "`,",
+        "  }",
+    ]
+    return "\n".join(lines)
 
 
 def update_news_file(new_articles):
