@@ -4,6 +4,7 @@ import { MessageSquare, ThumbsUp, Eye, Plus, Tag } from 'lucide-react'
 import { useAuth } from '../data/authContext'
 import { useI18n } from '../data/i18nContext'
 import { getForumPosts, addPost, categoryLabels, type ForumPost } from '../data/forumData'
+import Giscus from '../components/Giscus'
 
 export default function ForumPage() {
   const { user, isAuthenticated } = useAuth()
@@ -95,6 +96,9 @@ export default function ForumPage() {
           </div>
         )}
       </div>
+
+      {/* GitHub Discussions 社区讨论 */}
+      <Giscus term="PhotonCloud Forum" />
     </div>
   )
 }
