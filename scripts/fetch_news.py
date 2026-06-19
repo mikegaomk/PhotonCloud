@@ -100,6 +100,56 @@ def generate_id(title):
     return 'auto_' + md5(title.encode()).hexdigest()[:8]
 
 
+def fetch_article_content(url, title, summary):
+    """Fetch article page and extract more content"""
+    if not url:
+        return summary
+
+    try:
+        import requests
+        from bs4 import BeautifulSoup
+
+        headers = {'User-Agent': 'Mozilla/5.0 (compatible; PhotonCloudBot/1.0)'}
+        resp = requests.get(url, headers=headers, timeout=10)
+        if resp.status_code != 200:
+            return summary
+
+        soup = BeautifulSoup(resp.text, 'html.parser')
+
+        # Remove script, style, nav, footer elements
+        for tag in soup(['script', 'style', 'nav', 'footer', 'header', 'aside']):
+            tag.decompose()
+
+        # Try common article content selectors
+        content_elem = (
+            soup.find('article') or
+            soup.find(class_=re.compile(r'article|post|content|entry', re.I)) or
+            soup.find('main')
+        )
+
+        if content_elem:
+            paragraphs = content_elem.find_all('p')
+        else:
+            paragraphs = soup.find_all('p')
+
+        # Extract text from paragraphs
+        text_parts = []
+        for p in paragraphs[:10]:  # Max 10 paragraphs
+            text = p.get_text(strip=True)
+            if len(text) > 50:  # Skip short/navigation paragraphs
+                text_parts.append(text)
+
+        if text_parts:
+            full_content = "## " + title + "\\n\\n" + "\\n\\n".join(text_parts[:5])
+            # Limit to 800 chars
+            return full_content[:800]
+
+    except Exception as e:
+        print(f"  Could not fetch content from {url}: {e}")
+
+    return summary
+
+
 def fetch_news_from_feeds():
     """Fetch news from all RSS feeds"""
     articles = []
@@ -112,7 +162,7 @@ def fetch_news_from_feeds():
                 title = entry.get('title', '')
                 summary = entry.get('summary', entry.get('description', ''))
                 # Clean HTML from summary
-                summary = re.sub(r'<[^>]+>', '', summary).strip()[:200]
+                summary = re.sub(r'<[^>]+>', '', summary).strip()[:300]
 
                 if not is_photonics_related(title, summary):
                     continue
@@ -127,10 +177,13 @@ def fetch_news_from_feeds():
                 else:
                     date_str = datetime.now().strftime('%Y-%m-%d')
 
+                # Try to fetch more content from the article page
+                article_content = fetch_article_content(entry.get('link', ''), title, summary)
+
                 articles.append({
                     'id': generate_id(title),
                     'title': title,
-                    'summary': summary,
+                    'summary': summary[:200],
                     'source': feed_info['source'],
                     'sourceUrl': entry.get('link', ''),
                     'date': date_str,
@@ -138,7 +191,7 @@ def fetch_news_from_feeds():
                     'region': feed_info['region'],
                     'chipTags': extract_chip_tags(title, summary),
                     'importance': determine_importance(title, summary),
-                    'content': summary,
+                    'content': article_content,
                 })
         except Exception as e:
             print(f"Error fetching {feed_info['source']}: {e}")
