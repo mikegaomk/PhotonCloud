@@ -44,6 +44,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_288cc1a5',
+    title: 'Tower and Marvell reach PIC milestone',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124504/Tower_and_Marvell_reach_PIC_milestone',
+    date: '2026-06-19',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: ``,
+  },
+  {
     id: 'auto_2965b657',
     title: 'Keysight expands photonics portfolio',
     summary: '',
