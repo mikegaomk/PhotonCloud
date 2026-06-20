@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { Layers, Cpu, Radio, ChevronRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Layers, Cpu, Radio, ChevronRight, BookOpen } from 'lucide-react'
 import ChipCard from '../components/ChipCard'
 import { photonicsChips } from '../data/photonicsData'
 
@@ -98,9 +99,24 @@ export default function ChipsPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <h1 className="text-3xl font-bold text-gray-900 mb-2">光芯片技术库</h1>
-      <p className="text-gray-500 mb-8">
+      <p className="text-gray-500 mb-4">
         从基础材料到系统应用，涵盖光芯片全产业链技术知识
       </p>
+
+      {/* Clopedia Entry Banner */}
+      <Link
+        to="/clopedia"
+        className="flex items-center justify-between p-4 mb-8 bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-100 rounded-xl hover:from-indigo-100 hover:to-purple-100 transition-colors group"
+      >
+        <div className="flex items-center gap-3">
+          <BookOpen className="h-6 w-6 text-indigo-600" />
+          <div>
+            <span className="font-semibold text-gray-900">Photon-Clopedia 术语百科</span>
+            <span className="block text-sm text-gray-500">24 个光芯片核心术语 · 中英双语 · 分类索引 · 互联词条</span>
+          </div>
+        </div>
+        <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-indigo-600 transition-colors" />
+      </Link>
 
       {/* Three-level Navigation */}
       <div className="mb-8">
