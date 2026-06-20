@@ -19,6 +19,7 @@ const NewsPage = lazy(() => import('./pages/NewsPage'))
 const PDKPage = lazy(() => import('./pages/PDKPage'))
 const DashboardPage = lazy(() => import('./pages/DashboardPage'))
 const HelpPage = lazy(() => import('./pages/HelpPage'))
+const ClopediaPage = lazy(() => import('./pages/ClopediaPage'))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 function Loading() {
@@ -50,6 +51,7 @@ export default function App() {
               <Route path="/forum" element={<ForumPage />} />
               <Route path="/forum/:id" element={<PostDetailPage />} />
               <Route path="/news" element={<NewsPage />} />
+              <Route path="/clopedia" element={<ClopediaPage />} />
               <Route path="/help" element={<HelpPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
