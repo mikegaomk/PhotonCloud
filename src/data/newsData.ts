@@ -44,6 +44,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_e9c1126c',
+    title: 'Marvell and Tower pass 5M PIC milestone',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124510/Marvell_and_Tower_pass_5M_PIC_milestone',
+    date: '2026-06-20',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: `## Marvell and Tower pass 5M PIC milestone\n\nMarvell and Tower Semiconductor have shipped more than five million coherent photonic integrated circuits, underscoring the growing role of silicon photonics in AI-driven data center networks.\n\nMarvell Technology and Tower Semiconductor have announced the shipment of more than five million coherent photonic integrated circuits (PICs), marking a significant milestone for silicon photonics deployment in high-speed optical networking.\n\nThe coherent PICs are being supplied to Marvell customers worldwide and are designed to support the increasing bandwidth and energy-efficiency demands of AI-driven data center interconnect (DCI) infrastructure.\n\nThe companies said the milestone reflects growing adoption of coherent optical technologies, which `,
+  },
+  {
     id: 'auto_288cc1a5',
     title: 'Tower and Marvell reach PIC milestone',
     summary: '',
