@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
-import { Newspaper, Zap, Globe, Filter, ChevronDown, ChevronRight, Clock, Tag } from 'lucide-react'
+import { Newspaper, Zap, Globe, Filter, ChevronDown, ChevronRight, Clock, Tag, BookOpen, Calendar } from 'lucide-react'
 import { useI18n } from '../data/i18nContext'
-import { getNews, getUpdates, categoryLabelsNews, regionLabels, type NewsItem, type TechUpdate } from '../data/newsData'
+import { getNews, getUpdates, categoryLabelsNews, regionLabels, newsSections, type NewsItem, type TechUpdate } from '../data/newsData'
 
 type ViewMode = 'news' | 'updates' | 'timeline'
+type NewsSection = 'all' | 'industry' | 'papers' | 'conferences'
 
 export default function NewsPage() {
   const [view, setView] = useState<ViewMode>('news')
@@ -11,6 +12,7 @@ export default function NewsPage() {
   const [updates, setUpdates] = useState<TechUpdate[]>([])
   const [selectedRegion, setSelectedRegion] = useState('all')
   const [selectedCategory, setSelectedCategory] = useState('all')
+  const [selectedSection, setSelectedSection] = useState<NewsSection>('all')
   const [expandedNews, setExpandedNews] = useState<string | null>(null)
   const { t } = useI18n()
 
@@ -22,6 +24,11 @@ export default function NewsPage() {
   const filteredNews = news.filter((n) => {
     if (selectedRegion !== 'all' && n.region !== selectedRegion) return false
     if (selectedCategory !== 'all' && n.category !== selectedCategory) return false
+    // Section filter
+    if (selectedSection !== 'all') {
+      const sectionCats = newsSections[selectedSection]?.categories || []
+      if (!sectionCats.includes(n.category)) return false
+    }
     return true
   })
 
@@ -37,6 +44,42 @@ export default function NewsPage() {
           <h1 className="text-3xl font-bold text-gray-900">{t('news.title')}</h1>
           <p className="text-gray-500 mt-1">{t('news.subtitle')}</p>
         </div>
+      </div>
+
+      {/* News Section Tabs */}
+      <div className="flex gap-2 mb-4 p-2 bg-gray-50 rounded-xl">
+        <button
+          onClick={() => setSelectedSection('all')}
+          className={`flex items-center gap-1.5 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+            selectedSection === 'all' ? 'bg-white text-indigo-700 shadow-sm border border-gray-200' : 'text-gray-600 hover:text-gray-900'
+          }`}
+        >
+          <Newspaper className="h-4 w-4" /> 全部资讯
+        </button>
+        <button
+          onClick={() => setSelectedSection('industry')}
+          className={`flex items-center gap-1.5 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+            selectedSection === 'industry' ? 'bg-white text-blue-700 shadow-sm border border-gray-200' : 'text-gray-600 hover:text-gray-900'
+          }`}
+        >
+          <Zap className="h-4 w-4" /> 📰 行业动态
+        </button>
+        <button
+          onClick={() => setSelectedSection('papers')}
+          className={`flex items-center gap-1.5 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+            selectedSection === 'papers' ? 'bg-white text-purple-700 shadow-sm border border-gray-200' : 'text-gray-600 hover:text-gray-900'
+          }`}
+        >
+          <BookOpen className="h-4 w-4" /> 📄 论文速递
+        </button>
+        <button
+          onClick={() => setSelectedSection('conferences')}
+          className={`flex items-center gap-1.5 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+            selectedSection === 'conferences' ? 'bg-white text-pink-700 shadow-sm border border-gray-200' : 'text-gray-600 hover:text-gray-900'
+          }`}
+        >
+          <Calendar className="h-4 w-4" /> 📅 会议预告
+        </button>
       </div>
 
       {/* View Toggle */}

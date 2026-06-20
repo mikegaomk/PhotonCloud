@@ -5,7 +5,7 @@ export interface NewsItem {
   source: string
   sourceUrl: string
   date: string
-  category: 'industry' | 'research' | 'policy' | 'funding' | 'product' | 'standard'
+  category: 'industry' | 'research' | 'policy' | 'funding' | 'product' | 'standard' | 'paper' | 'conference'
   region: 'global' | 'china' | 'us' | 'europe' | 'japan' | 'korea'
   chipTags: string[]
   importance: 'high' | 'medium' | 'low'
@@ -29,6 +29,27 @@ export const categoryLabelsNews: Record<string, { label: string; color: string }
   funding: { label: '投融资', color: '#f97316' },
   product: { label: '产品发布', color: '#22c55e' },
   standard: { label: '标准进展', color: '#6366f1' },
+  paper: { label: '论文速递', color: '#0ea5e9' },
+  conference: { label: '会议预告', color: '#d946ef' },
+}
+
+// News section groups for tab navigation
+export const newsSections = {
+  industry: {
+    label: '📰 行业动态',
+    description: '融资/并购/新品/政策',
+    categories: ['industry', 'funding', 'product', 'policy', 'standard'],
+  },
+  papers: {
+    label: '📄 论文速递',
+    description: 'arXiv 硅光/光互连精选',
+    categories: ['paper', 'research'],
+  },
+  conferences: {
+    label: '📅 会议预告',
+    description: 'OFC/CLEO/ECOC/ECTC',
+    categories: ['conference'],
+  },
 }
 
 export const regionLabels: Record<string, { label: string; flag: string }> = {
