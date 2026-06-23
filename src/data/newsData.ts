@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_e48e6a6e',
+    title: 'HyperLight raises $80M to scale TFLN PIC',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124526/HyperLight_raises_80M_to_scale_TFLN_PIC',
+    date: '2026-06-23',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["TFLN", "PIC"],
+    importance: 'medium',
+    content: `## HyperLight raises $80M to scale TFLN PIC\n\nHyperLight has secured $80 million in Series C funding to expand manufacturing capacity and accelerate deployment of its thin-film lithium niobate photonic integrated circuit technology for AI infrastructure.\n\nHyperLight has closed an $80 million Series C funding round to support the expansion of its thin-film lithium niobate (TFLN) photonic integrated circuit (PIC) platform, targeting growing demand from AI and high-performance networking applications.\n\nThe funding will be used to increase manufacturing capacity, support customer qualification programmes, scale the company's TFLN Chiplet Platform and strengthen partnerships across foundry, semiconductor networking and systems integration ecosystems.\n\nHyperLight's TFLN Chiplet Platform i`,
+  },
+  {
     id: 'auto_e9c1126c',
     title: 'Marvell and Tower pass 5M PIC milestone',
     summary: '',
