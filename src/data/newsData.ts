@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_bcaa9f7b',
+    title: 'Q.ANT demonstrates AI on photonic hardware',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124540/QANT_demonstrates_AI_on_photonic_hardware',
+    date: '2026-06-24',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## Q.ANT demonstrates AI on photonic hardware\n\nQ.ANT has demonstrated generative AI and recurrent neural network workloads running on its second-generation photonic processor, highlighting the potential of photonic computing for future AI infrastructure.\n\nQ.ANT has showcased the execution of complex AI workloads on its second-generation Native Processing Unit (NPU), demonstrating both a diffusion model and a recurrent neural network at ISC High Performance 2026 in Hamburg.\n\nThe demonstrations mark a significant milestone for photonic computing, showing that the company's hardware can support modern AI applications including generative image synthesis and time-series prediction.\n\nFor generative AI, Q.ANT ran a diffusion model for image-to-image synthesis, a workload that relies on r`,
+  },
+  {
     id: 'auto_e48e6a6e',
     title: 'HyperLight raises $80M to scale TFLN PIC',
     summary: '',
