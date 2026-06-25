@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_2bca9478',
+    title: 'Vertical power delivery platform aims to ease AI infrastructure constraints',
+    summary: 'Lotus Microsystems has launched a vertical power delivery platform designed to bring power conversion closer to processors while addressing thermal management within the same architecture. For eeNews ',
+    source: 'EE News',
+    sourceUrl: 'https://www.eenewseurope.com/en/vertical-power-delivery-platform-aims-to-ease-ai-infrastructure-constraints/',
+    date: '2026-06-24',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["Photonics"],
+    importance: 'high',
+    content: `## Vertical power delivery platform aims to ease AI infrastructure constraints\n\nLotus Microsystemshas launcheda vertical power delivery platform designed to bring power conversion closer to processors while addressing thermal management within the same architecture.\n\nFor eeNews Europe readers, the development highlights how advanced packaging and power delivery technologies are becoming critical as AI infrastructure moves towards higher current densities and more demanding accelerator designs.\n\nThe Copenhagen-based company has introducedvStrata, a platform built around what it calls silicon Power Interposer Technology (PIT). The approach places power delivery directly beneath the processor, aiming to reduce electrical losses while simultaneously managing heat at the point of load.\n\`,
+  },
+  {
     id: 'auto_bcaa9f7b',
     title: 'Q.ANT demonstrates AI on photonic hardware',
     summary: '',
