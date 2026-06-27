@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_0263786c',
+    title: 'PICs advance next-generation sensing',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124556/PICs_advance_next-generation_sensing',
+    date: '2026-06-27',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: `## PICs advance next-generation sensing\n\nIntegrated photonic circuits are enabling more compact, precise and scalable sensing systems for applications ranging from metrology and vibration monitoring to FMCW LiDAR.\n\nPhotonic integrated circuits (PICs) are continuing to expand their role in next-generation sensing and measurement by integrating multiple optical functions onto a single chip.\n\nCompared with conventional optical systems, PICs offer greater precision, reduced size and weight, improved robustness and immunity to electromagnetic interference.\n\nAdvances in silicon photonics, silicon nitride and indium phosphide platforms are supporting applications including precision metrology, vibration sensing and frequency-modulated continuous-wave (FMCW) LiDAR.\n\nBy enabling parallel `,
+  },
+  {
     id: 'auto_2bca9478',
     title: 'Vertical power delivery platform aims to ease AI infrastructure constraints',
     summary: 'Lotus Microsystems has launched a vertical power delivery platform designed to bring power conversion closer to processors while addressing thermal management within the same architecture. For eeNews ',
