@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_278f5c54',
+    title: 'KAYTUS Introduces AI Infrastructure Management Platform',
+    summary: 'KAYTUS has introduced KSManage Ultra, an AI infrastructure management platform for large-scale AI data centers, which the company calls AI Factories. The company unveiled the platform at ISC 2026 in F',
+    source: 'EE News',
+    sourceUrl: 'https://www.eenewseurope.com/en/kaytus-introduces-ai-infrastructure-management-platform/',
+    date: '2026-06-29',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## KAYTUS Introduces AI Infrastructure Management Platform\n\nKAYTUShas introduced KSManage Ultra, an AI infrastructure management platform for large-scaleAIdata centers, which the company calls AI Factories. The company unveiled the platform at ISC 2026 in Frankfurt. KSManage Ultra brings compute, networking, power, and liquid cooling under a single management system.\n\nAs AI deployments continue to grow in size and density, infrastructure management has become a major challenge. For eeNews Europe readers working with AI hardware, data centers, or high-performance computing, the announcement offers a look at how vendors are tackling system visibility, fault detection, and operational efficiency in next-generation AI infrastructure.\n\nAccording to KAYTUS, traditional server management to`,
+  },
+  {
     id: 'auto_0263786c',
     title: 'PICs advance next-generation sensing',
     summary: '',
