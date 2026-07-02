@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_9ad4a544',
+    title: 'SDR with HackRF One & HackRF Pro using GNU Radio',
+    summary: 'Software-defined radio has transformed radio experimentation. Tasks that once required dedicated hardware can now be carried out in software, allowing users to inspect, process, and transmit signals i',
+    source: 'EE News',
+    sourceUrl: 'https://www.eenewseurope.com/en/sdr-with-hackrf-one-hackrf-pro/',
+    date: '2026-07-01',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## SDR with HackRF One & HackRF Pro using GNU Radio\n\nSoftware-defined radio has transformed radio experimentation. Tasks that once required dedicated hardware can now be carried out in software, allowing users to inspect, process, and transmit signals in ways that were once reserved for specialized equipment. InSDR with HackRF One & HackRF Pro: Programming with GNU Radio, author Burkhard Kainka takes readers inside the world of software-defined radio through a combination of radio theory, practical experiments, and software development.\n\nIn the foreword, Kainka acknowledges that digital signal processing can seem intimidating at first, but he argues that today’s SDR tools make it easier than ever to learn through experimentation. That philosophy runs throughout the book. Using the Hack`,
+  },
+  {
     id: 'auto_278f5c54',
     title: 'KAYTUS Introduces AI Infrastructure Management Platform',
     summary: 'KAYTUS has introduced KSManage Ultra, an AI infrastructure management platform for large-scale AI data centers, which the company calls AI Factories. The company unveiled the platform at ISC 2026 in F',
