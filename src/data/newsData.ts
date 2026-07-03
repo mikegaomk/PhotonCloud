@@ -65,6 +65,74 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_cf363e65',
+    title: 'Building the fab of the future for high volume PIC manufacturing',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124625/Building_the_fab_of_the_future_for_high_volume_PIC_manufacturing',
+    date: '2026-07-03',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: `## Building the fab of the future for high volume PIC manufacturing\n\nPhotonic integrated circuits are moving from technical
+promise to industrial expectation. Customers are no longer asking whether PICs
+can work; they expect reliable delivery, traceable quality, and repeatable
+performance at scale. For the photonics industry, this marks a decisive shift:
+from research excellence to disciplined manufacturing.\n\nBY BART THIESEN, MANAGING CONSULTANT HIGH-TECH, ITILITY AND ANDRE VAN DE GEIJN, 
+MANUFACTURING IT MANAGER, SMART PHOTONICS\n\nFor years, the photonic integrated circuit (PIC) industry has been driven by research, prototyping, and technical demonstration. Across Europe, companies, universities, and research institutes have proven that PICs enable powerful solutions in telecom,`,
+  },
+  {
+    id: 'auto_ba896608',
+    title: 'Photonics at the heart of AI data centres and beyond',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124624/Photonics_at_the_heart_of_AI_data_centres_and_beyond',
+    date: '2026-07-03',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## Photonics at the heart of AI data centres and beyond\n\nAI-driven computing requires efficient optical interconnects
+to overcome data-centre bottlenecks. imec advances silicon photonics technology
+to address such a need. Furthermore, ultra-low loss SiN photonics is considered
+as a key technology to support the next generation quantum-based computing. The
+same platform can also be used for augmented and virtual reality and bio
+sensing.\n\nBy Leili Shiramin, Portfolio Manager-Integrated Photonics,
+Joris Van Compenhout, Fellow, Philippe Absil, Vice President, imec\n\nThe exponential growth of data generated across industries, combined with the rapidly increasing complexity and scale of AI models, has created significant bottlenecks in both training and inference workloads. As AI syst`,
+  },
+  {
+    id: 'auto_8de19b55',
+    title: 'Integrated photonics confronts testing, packaging and scale',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124623/Integrated_photonics_confronts_testing_packaging_and_scale',
+    date: '2026-07-03',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: `## Integrated photonics confronts testing, packaging and scale\n\nAs photonic integrated circuits move toward larger-scale
+deployment in AI systems, communications and sensing, the industry is
+increasingly confronting the practical challenges of testing, integration and
+manufacturability.Discussions at PIC International 2026highlighted how these
+pressures are reshaping optical metrology, packaging strategies and
+next-generation photonic architectures.\n\nWhile photonic integrated circuits continue to advance in capability and complexity, speakers at this year’s PIC International made it clear that the industry’s next challenge lies not simply in improving device performance, but in understanding how to test, integrate and manufacture these systems at scale.\n\nAcross the conference, a`,
+  },
+  {
+    id: 'auto_3afa0b78',
+    title: 'Infineon expands sensor portfolio with ams OSRAM acquisition',
+    summary: 'Infineon Technologies has completed its acquisition of the non-optical analog and mixed-signal sensor portfolio from ams OSRAM, strengthening its position in automotive, industrial and medical sensing',
+    source: 'EE News',
+    sourceUrl: 'https://www.eenewseurope.com/en/infineon-expands-sensor-portfolio-with-ams-osram-acquisition/',
+    date: '2026-07-02',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["Photonics"],
+    importance: 'high',
+    content: `## Infineon expands sensor portfolio with ams OSRAM acquisition\n\nInfineon Technologies has completed itsacquisitionof the non-optical analog and mixed-signalsensorportfolio from ams OSRAM, strengthening its position in automotive, industrial and medical sensing. The deal, first announced in February 2026, has now closed after receiving all required regulatory approvals.\n\nThe acquisition adds new sensor technologies, engineering talent and development sites to Infineon, while expanding the company’s recently formed Edge Systems division. ForeeNews Europereaders, the move highlights continued consolidation in the semiconductor sensor market and signals where suppliers are investing to address growing demand for edge intelligence, automotive electronics and medical systems.\n\nInfineon sa`,
+  },
+  {
     id: 'auto_9ad4a544',
     title: 'SDR with HackRF One & HackRF Pro using GNU Radio',
     summary: 'Software-defined radio has transformed radio experimentation. Tasks that once required dedicated hardware can now be carried out in software, allowing users to inspect, process, and transmit signals i',
