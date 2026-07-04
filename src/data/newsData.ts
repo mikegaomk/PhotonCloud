@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_9a17c0fc',
+    title: 'IQM becomes first European quantum computing firm to list on Nasdaq',
+    summary: 'IQM Quantum Computers has become the first European quantum computing company to list on a major US stock exchange, with its shares beginning trading on the Nasdaq Global Select Market under the ticke',
+    source: 'EE News',
+    sourceUrl: 'https://www.eenewseurope.com/en/iqm-becomes-first-european-quantum-computing-firm-to-list-on-nasdaq/',
+    date: '2026-07-03',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["Photonics"],
+    importance: 'high',
+    content: `## IQM becomes first European quantum computing firm to list on Nasdaq\n\nIQM Quantum Computershas becomethe first European quantum computing company to list on a major US stock exchange, with its shares beginning trading on the Nasdaq Global Select Market under the ticker symbol IQMX.\n\nThe listing follows the completion of the company’s business combination with Real Asset Acquisition Corp. and gives the Finnishquantumhardware developer a pro forma cash position of €337 million to support its next phase of growth.\n\nForeeNews Europereaders, the listing highlights the increasing maturity of Europe’s quantum technology sector and shows how regional companies are attracting global investors while expanding into international markets. It also reflects growing commercial demand for quantum `,
+  },
+  {
     id: 'auto_cf363e65',
     title: 'Building the fab of the future for high volume PIC manufacturing',
     summary: '',
