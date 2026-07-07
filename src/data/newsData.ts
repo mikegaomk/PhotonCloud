@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_a6fbf1fb',
+    title: 'STMicroelectronics edge AI imaging targets perception',
+    summary: 'STMicroelectronics is positioning edge AI imaging as a move from camera components towards sensing platforms that turn optical input into data a machine can use directly. The company’s Imaging subgrou',
+    source: 'EE News',
+    sourceUrl: 'https://www.eenewseurope.com/en/stmicroelectronics-edge-ai-imaging-perception/',
+    date: '2026-07-06',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## STMicroelectronics edge AI imaging targets perception\n\nSTMicroelectronics is positioning edge AI imaging as a move from camera components towards sensing platforms that turn optical input into data a machine can use directly. The company’s Imaging subgroup, led by Alexandre Balmefrezol, is using its FlightSense depth-sensing and BrightSense vision portfolios to address systems that need to see, measure and act locally rather than send raw images to the cloud.\n\nThe argument is not that cameras go away. It is that robotics, industrial automation, smart buildings, healthcare devices and wearables need sensors that provide depth, infrared and visual context with low latency and low power consumption. In ST’s framing, that moves imaging from human-viewable pictures to machine perception,`,
+  },
+  {
     id: 'auto_9a17c0fc',
     title: 'IQM becomes first European quantum computing firm to list on Nasdaq',
     summary: 'IQM Quantum Computers has become the first European quantum computing company to list on a major US stock exchange, with its shares beginning trading on the Nasdaq Global Select Market under the ticke',
