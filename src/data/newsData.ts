@@ -65,6 +65,32 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_28e6e9da',
+    title: 'Lightelligence backs silicon photonics',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124666/Lightelligence_backs_silicon_photonics',
+    date: '2026-07-10',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["Silicon Photonics"],
+    importance: 'medium',
+    content: `## Lightelligence backs silicon photonics\n\nThe optical computing specialist expects silicon photonic chips to account for more than 30% of computing centre processors within five years as demand for AI infrastructure accelerates.\n\nShanghai-based optical computing company Lightelligence has forecast rapid growth in silicon photonics, predicting that photonic chips will account for more than 30% of processors deployed in computing centres within the next five years, up from less than 3% today.\n\nSpeaking in Shanghai, Lightelligence founder Shen Yichen said the company is jointly deploying China's first large-scale commercial optical computing system based on a 10,000-GPU supernode, marking an important milestone in the commercial adoption of photonic computing technologies.\n\nFounded i`,
+  },
+  {
+    id: 'auto_3cc6b077',
+    title: 'TSMC targets PIC capacity expansion',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124665/TSMC_targets_PIC_capacity_expansion',
+    date: '2026-07-10',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: `## TSMC targets PIC capacity expansion\n\nThe foundry is expected to increase photonic integrated circuit production capacity to 25,000 wafers per month by 2028, supporting growing demand for AI-driven co-packaged optics.\n\nTSMC is expected to significantly expand its photonic integrated circuit (PIC) manufacturing capacity over the next two years, reflecting growing demand for silicon photonics and co-packaged optics (CPO) in AI infrastructure.\n\nAccording to industry reports, the foundry's PIC production capacity is forecast to increase from around 500 wafers per month to 10,000 wafers by the second quarter of 2026, rising to 15,000 wafers by the end of the year and reaching at least 25,000 wafers per month by 2028.\n\nThe initial production ramp is expected to support early customers `,
+  },
+  {
     id: 'auto_f7f8ee96',
     title: 'Lumentum boosts CPO growth',
     summary: '',
