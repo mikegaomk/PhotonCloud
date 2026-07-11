@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_0630a53e',
+    title: 'Tower ships 5 million coherent PICs',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124673/Tower_ships_5_million_coherent_PICs',
+    date: '2026-07-11',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: `## Tower ships 5 million coherent PICs\n\nThe milestone, achieved through Tower Semiconductor's manufacturing partnership with Marvell, reflects growing demand for coherent silicon photonics as AI data centers require faster, higher-capacity optical interconnects.\n\nTower Semiconductor has announced the shipment of more than five million coherent photonic integrated circuits (PICs) to global customers through its long-standing manufacturing partnership with Marvell Technology, marking a significant milestone for silicon photonics deployment in AI-driven optical networking.\n\nThe coherent PICs are integrated into optical transceivers that enable high-speed data transmission over fiber-optic networks.\n\nAs artificial intelligence workloads continue to expand across hyperscale data centers`,
+  },
+  {
     id: 'auto_28e6e9da',
     title: 'Lightelligence backs silicon photonics',
     summary: '',
