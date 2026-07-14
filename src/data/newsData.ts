@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_60c9f514',
+    title: 'Marvell boosts photonics business',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124691/Marvell_boosts_photonics_business',
+    date: '2026-07-14',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## Marvell boosts photonics business\n\nTower Semiconductor's shipment of five million coherent photonic integrated circuits highlights growing demand for silicon photonics as AI data centers expand high-speed optical connectivity.\n\nMarvell Technology's photonics business received a boost after Tower Semiconductor announced it has shipped more than five million coherent photonic integrated circuits (PICs), underscoring the rapid adoption of optical networking technologies for AI infrastructure.\n\nThe milestone reflects increasing demand for coherent PICs used in high-speed optical transceivers that connect AI data centers and cloud networks.\n\nAs hyperscale operators expand AI computing capacity, silicon photonics is emerging as a critical technology for delivering the bandwidth and en`,
+  },
+  {
     id: 'auto_0630a53e',
     title: 'Tower ships 5 million coherent PICs',
     summary: '',
