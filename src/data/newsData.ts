@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_16e361c9',
+    title: 'SILITH, UMC reach PIC milestone',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124697/SILITH_UMC_reach_PIC_milestone',
+    date: '2026-07-15',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: `## SILITH, UMC reach PIC milestone\n\nThe partners have begun mass production of silicon photonic ICs for AI optical interconnects and unveiled a roadmap toward 400G/lane silicon photonics and future TFLN-based platforms.\n\nSILITH Technology and United Microelectronics Corporation (UMC) have achieved a key milestone in silicon photonics manufacturing with the first mass-production wafer delivery of photonic integrated circuits (PICs) from UMC's 12-inch fabrication facility in Singapore.\n\nThe milestone marks the transition of SILITH's 1.6T silicon photonics platform from development to high-volume manufacturing, combining the company's photonics design expertise with UMC's silicon-on-insulator (SOI) process technology and 12-inch wafer production capabilities.\n\nThe platform reached pro`,
+  },
+  {
     id: 'auto_60c9f514',
     title: 'Marvell boosts photonics business',
     summary: '',
