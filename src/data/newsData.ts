@@ -65,6 +65,19 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_4dea8da8',
+    title: 'Photon Design speeds TFLN simulation',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124722/Photon_Design_speeds_TFLN_simulation',
+    date: '2026-07-18',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["TFLN"],
+    importance: 'medium',
+    content: `## Photon Design speeds TFLN simulation\n\nNative thin-film lithium niobate support in Photon Design's FIMPROP software enables rigorous waveguide bend simulations in around 10 seconds, helping accelerate the design of next-generation photonic integrated circuits.\n\nPhoton Design has announced native support for thin-film lithium niobate (TFLN) waveguide bend simulation in its FIMPROP photonic design software, enabling rigorous modelling of a benchmark 500 µm² 'S' bend in approximately 10 seconds using Eigen Mode Expansion (EME).\n\nThe company says the new capability delivers results comparable to finite-difference time-domain (FDTD) simulations while significantly reducing computation time.\n\nAccording to Photon Design, the benchmark simulation was completed on a standard CPU-based lap`,
+  },
+  {
     id: 'auto_16e361c9',
     title: 'SILITH, UMC reach PIC milestone',
     summary: '',
