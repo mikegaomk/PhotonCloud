@@ -65,6 +65,32 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_2b64e302',
+    title: 'UCLA advances terahertz PICs',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124726/UCLA_advances_terahertz_PICs',
+    date: '2026-07-21',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: `## UCLA advances terahertz PICs\n\nResearchers demonstrate a quantum-well photonic integrated circuit that combines terahertz generation and detection on a single GaAs/AlGaAs chip, paving the way for scalable wireless, sensing, and imaging technologies.\n\nResearchers at the University of California, Los Angeles (UCLA) have demonstrated a monolithically integrated photonic platform that can generate and detect terahertz signals on a single semiconductor chip, offering a potential path toward compact systems for communications, sensing and imaging.\n\nThe work introduces the Monolithically Integrated Terahertz Optoelectronics, or MITO, platform, which uses quantum-well devices fabricated on a gallium arsenide/aluminum gallium arsenide (GaAs/AlGaAs) photonic integrated circuit platform and i`,
+  },
+  {
+    id: 'auto_36d0efde',
+    title: 'Adtran expands rural fiber network in Illinois',
+    summary: 'Adtran has announced that Silo Communications is using its fiber access technology to expand high-speed broadband services across underserved communities in northern Illinois. The deployment marks ano',
+    source: 'EE News',
+    sourceUrl: 'https://www.eenewseurope.com/en/adtran-expands-rural-fiber-network-in-illinois/',
+    date: '2026-07-17',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## Adtran expands rural fiber network in Illinois\n\nAdtranhas announced that Silo Communications is using itsfiberaccess technology to expand high-speedbroadbandservices across underserved communities in northern Illinois. The deployment marks another step in Silo Communications’ transition from a wireless provider to a fiber network operator capable of delivering faster and more reliable connectivity.\n\nForeeNews Europereaders, the announcement highlights how fiber access platforms, network automation, and intelligent software are enabling broadband providers to extend connectivity into rural areas. It also demonstrates how scalable access technologies can support digital inclusion while creating opportunities for long-term network growth.\n\nSilo Communications is deploying Adtran’s SD`,
+  },
+  {
     id: 'auto_4dea8da8',
     title: 'Photon Design speeds TFLN simulation',
     summary: '',
