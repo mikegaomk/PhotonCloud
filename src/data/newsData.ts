@@ -65,6 +65,32 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_30a4df52',
+    title: 'XIVER calls for manufacturable photonics',
+    summary: '',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124745/XIVER_calls_for_manufacturable_photonics',
+    date: '2026-07-22',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## XIVER calls for manufacturable photonics\n\nXIVER says integrated photonic products must be designed for yield, reliability and scalable production from the earliest development stages.\n\nIntegrated photonics companies must consider manufacturability at the earliest stages of product development if they are to move successfully from laboratory prototypes to volume production, according to speciality foundry XIVER.\n\nSreekanth Chirayath, Vice President of Business Development at XIVER, said many promising photonic technologies fail to reach the market because they are designed primarily for technical performance rather than scalable manufacturing.\n\n“A device may work perfectly on a handful of prototypes, but when you try to manufacture hundreds or thousands of wafers, yield issues em`,
+  },
+  {
+    id: 'auto_668ecb0d',
+    title: 'Semiconductor technologies for sub-1nm chips',
+    summary: 'Extreme ultraviolet (EUV) systems, volumetric printing, and 2D materials are all advancing for structures under 1nm in size for the next generations of high-performance semiconductors. The prospect of',
+    source: 'EE News',
+    sourceUrl: 'https://www.eenewseurope.com/en/semiconductor-technologies-for-sub-1nm-chips/',
+    date: '2026-07-21',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## Semiconductor technologies for sub-1nm chips\n\nExtreme ultraviolet (EUV) systems, volumetric printing, and 2D materials are all advancing for structures under 1nm in size for the next generations of high-performance semiconductors.\n\nThe prospect of sub-1nm chips in the next few years is becoming increasingly realistic, as highlighted by the technology roadmap at imec in Belgium and IBM’s recent announcement of a0.7nm technology.\n\nThis is driving the development of new process technologies. Today’s EUV systems are large and expensive, and researchers are looking at new ways to produce tiny transistors, from volumetric 3D printing to 2D materials.\n\nTo speed up production and lower the costs of manufacturing semiconductors, researchers in the Cockrell School of Engineering at the Un`,
+  },
+  {
     id: 'auto_2b64e302',
     title: 'UCLA advances terahertz PICs',
     summary: '',
