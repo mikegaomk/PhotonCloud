@@ -93,7 +93,7 @@ const initialNews: NewsItem[] = [
   {
     id: 'auto_2b64e302',
     title: 'UCLA advances terahertz PICs',
-    summary: '',
+    summary: 'UCLA researchers demonstrate a monolithically integrated photonic platform combining terahertz generation and detection on a single GaAs/AlGaAs chip for wireless, sensing, and imaging applications.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124726/UCLA_advances_terahertz_PICs',
     date: '2026-07-21',
@@ -101,7 +101,11 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: `## UCLA advances terahertz PICs\n\nResearchers demonstrate a quantum-well photonic integrated circuit that combines terahertz generation and detection on a single GaAs/AlGaAs chip, paving the way for scalable wireless, sensing, and imaging technologies.\n\nResearchers at the University of California, Los Angeles (UCLA) have demonstrated a monolithically integrated photonic platform that can generate and detect terahertz signals on a single semiconductor chip, offering a potential path toward compact systems for communications, sensing and imaging.\n\nThe work introduces the Monolithically Integrated Terahertz Optoelectronics, or MITO, platform, which uses quantum-well devices fabricated on a gallium arsenide/aluminum gallium arsenide (GaAs/AlGaAs) photonic integrated circuit platform and i`,
+    content: `## UCLA advances terahertz PICs\n\nResearchers demonstrate a quantum-well photonic integrated circuit that combines terahertz generation and detection on a single GaAs/AlGaAs chip, paving the way for scalable wireless, sensing, and imaging technologies.\n\nResearchers at the University of California, Los Angeles (UCLA) have demonstrated a monolithically integrated photonic platform that can generate and detect terahertz signals on a single semiconductor chip, offering a potential path toward compact systems for communications, sensing and imaging.\n\nThe work introduces the Monolithically Integrated Terahertz Optoelectronics, or MITO, platform, which uses quantum-well devices fabricated on a gallium arsenide/aluminum gallium arsenide (GaAs/AlGaAs) photonic integrated circuit platform and is capable of operating at room temperature.
+
+The MITO chip integrates a quantum cascade laser source for terahertz generation with a quantum-well infrared photodetector for terahertz detection, both fabricated using standard III-V semiconductor processing. The monolithic integration eliminates the need for external terahertz sources or detectors, potentially enabling compact, portable terahertz systems.
+
+The researchers demonstrated terahertz emission and detection across a frequency range relevant to future 6G wireless communications, non-destructive testing, and biomedical imaging. The platform's compatibility with established semiconductor fabrication processes suggests a viable path toward volume manufacturing.`,
   },
   {
     id: 'auto_36d0efde',
@@ -111,7 +115,7 @@ const initialNews: NewsItem[] = [
     sourceUrl: 'https://www.eenewseurope.com/en/adtran-expands-rural-fiber-network-in-illinois/',
     date: '2026-07-17',
     category: 'industry',
-    region: 'europe',
+    region: 'us',
     chipTags: ["Photonics"],
     importance: 'medium',
     content: `## Adtran expands rural fiber network in Illinois\n\nAdtranhas announced that Silo Communications is using itsfiberaccess technology to expand high-speedbroadbandservices across underserved communities in northern Illinois. The deployment marks another step in Silo Communications’ transition from a wireless provider to a fiber network operator capable of delivering faster and more reliable connectivity.\n\nForeeNews Europereaders, the announcement highlights how fiber access platforms, network automation, and intelligent software are enabling broadband providers to extend connectivity into rural areas. It also demonstrates how scalable access technologies can support digital inclusion while creating opportunities for long-term network growth.\n\nSilo Communications is deploying Adtran’s SD`,
@@ -119,7 +123,7 @@ const initialNews: NewsItem[] = [
   {
     id: 'auto_4dea8da8',
     title: 'Photon Design speeds TFLN simulation',
-    summary: '',
+    summary: 'Photon Design adds native TFLN support to its FIMPROP software, enabling rigorous waveguide bend simulations in approximately 10 seconds using Eigen Mode Expansion.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124722/Photon_Design_speeds_TFLN_simulation',
     date: '2026-07-18',
@@ -127,12 +131,16 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["TFLN"],
     importance: 'medium',
-    content: `## Photon Design speeds TFLN simulation\n\nNative thin-film lithium niobate support in Photon Design's FIMPROP software enables rigorous waveguide bend simulations in around 10 seconds, helping accelerate the design of next-generation photonic integrated circuits.\n\nPhoton Design has announced native support for thin-film lithium niobate (TFLN) waveguide bend simulation in its FIMPROP photonic design software, enabling rigorous modelling of a benchmark 500 µm² 'S' bend in approximately 10 seconds using Eigen Mode Expansion (EME).\n\nThe company says the new capability delivers results comparable to finite-difference time-domain (FDTD) simulations while significantly reducing computation time.\n\nAccording to Photon Design, the benchmark simulation was completed on a standard CPU-based lap`,
+    content: `## Photon Design speeds TFLN simulation\n\nNative thin-film lithium niobate support in Photon Design's FIMPROP software enables rigorous waveguide bend simulations in around 10 seconds, helping accelerate the design of next-generation photonic integrated circuits.\n\nPhoton Design has announced native support for thin-film lithium niobate (TFLN) waveguide bend simulation in its FIMPROP photonic design software, enabling rigorous modelling of a benchmark 500 µm² 'S' bend in approximately 10 seconds using Eigen Mode Expansion (EME).\n\nThe company says the new capability delivers results comparable to finite-difference time-domain (FDTD) simulations while significantly reducing computation time.\n\nAccording to Photon Design, the benchmark simulation was completed on a standard CPU-based laptop, making it accessible to a broad range of photonic circuit designers without requiring high-performance computing resources.
+
+TFLN has attracted significant interest from the photonics community due to its strong electro-optic properties, low optical loss, and compatibility with high-speed modulation. However, designing waveguide bends and other curved structures in TFLN requires careful modelling due to the material's anisotropic crystal properties.
+
+Photon Design says the native TFLN support in FIMPROP accounts for the full crystal orientation dependence of the refractive index, enabling accurate simulation of waveguide bends at arbitrary angles without simplifying assumptions. The company plans to extend the capability to additional TFLN device geometries in future software releases.`,
   },
   {
     id: 'auto_16e361c9',
     title: 'SILITH, UMC reach PIC milestone',
-    summary: '',
+    summary: 'SILITH and UMC begin mass production of silicon photonic ICs for AI optical interconnects from UMC 12-inch fab, with roadmap toward 400G/lane and future TFLN platforms.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124697/SILITH_UMC_reach_PIC_milestone',
     date: '2026-07-15',
@@ -140,12 +148,16 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: `## SILITH, UMC reach PIC milestone\n\nThe partners have begun mass production of silicon photonic ICs for AI optical interconnects and unveiled a roadmap toward 400G/lane silicon photonics and future TFLN-based platforms.\n\nSILITH Technology and United Microelectronics Corporation (UMC) have achieved a key milestone in silicon photonics manufacturing with the first mass-production wafer delivery of photonic integrated circuits (PICs) from UMC's 12-inch fabrication facility in Singapore.\n\nThe milestone marks the transition of SILITH's 1.6T silicon photonics platform from development to high-volume manufacturing, combining the company's photonics design expertise with UMC's silicon-on-insulator (SOI) process technology and 12-inch wafer production capabilities.\n\nThe platform reached pro`,
+    content: `## SILITH, UMC reach PIC milestone\n\nThe partners have begun mass production of silicon photonic ICs for AI optical interconnects and unveiled a roadmap toward 400G/lane silicon photonics and future TFLN-based platforms.\n\nSILITH Technology and United Microelectronics Corporation (UMC) have achieved a key milestone in silicon photonics manufacturing with the first mass-production wafer delivery of photonic integrated circuits (PICs) from UMC's 12-inch fabrication facility in Singapore.\n\nThe milestone marks the transition of SILITH's 1.6T silicon photonics platform from development to high-volume manufacturing, combining the company's photonics design expertise with UMC's silicon-on-insulator (SOI) process technology and 12-inch wafer production capabilities.\n\nThe platform reached production readiness following an extensive qualification process that validated device performance, reliability, and yield at wafer scale.
+
+SILITH's silicon photonics platform targets 800G and 1.6T optical transceiver applications for AI data center interconnects. The company's roadmap includes a next-generation 400G/lane silicon photonics platform and a future thin-film lithium niobate (TFLN) based platform for ultra-high bandwidth applications.
+
+The partnership leverages UMC's established 12-inch SOI manufacturing infrastructure in Singapore, providing SILITH with access to high-volume production capacity. The companies said the collaboration demonstrates that silicon photonics can be manufactured at scale using existing semiconductor foundry capabilities, addressing a key concern for customers requiring reliable supply of photonic ICs.`,
   },
   {
     id: 'auto_60c9f514',
     title: 'Marvell boosts photonics business',
-    summary: '',
+    summary: 'Tower Semiconductor ships five million coherent PICs, highlighting growing demand for silicon photonics as AI data centers expand high-speed optical connectivity.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124691/Marvell_boosts_photonics_business',
     date: '2026-07-14',
@@ -153,12 +165,16 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["Photonics"],
     importance: 'medium',
-    content: `## Marvell boosts photonics business\n\nTower Semiconductor's shipment of five million coherent photonic integrated circuits highlights growing demand for silicon photonics as AI data centers expand high-speed optical connectivity.\n\nMarvell Technology's photonics business received a boost after Tower Semiconductor announced it has shipped more than five million coherent photonic integrated circuits (PICs), underscoring the rapid adoption of optical networking technologies for AI infrastructure.\n\nThe milestone reflects increasing demand for coherent PICs used in high-speed optical transceivers that connect AI data centers and cloud networks.\n\nAs hyperscale operators expand AI computing capacity, silicon photonics is emerging as a critical technology for delivering the bandwidth and en`,
+    content: `## Marvell boosts photonics business\n\nTower Semiconductor's shipment of five million coherent photonic integrated circuits highlights growing demand for silicon photonics as AI data centers expand high-speed optical connectivity.\n\nMarvell Technology's photonics business received a boost after Tower Semiconductor announced it has shipped more than five million coherent photonic integrated circuits (PICs), underscoring the rapid adoption of optical networking technologies for AI infrastructure.\n\nThe milestone reflects increasing demand for coherent PICs used in high-speed optical transceivers that connect AI data centers and cloud networks.\n\nAs hyperscale operators expand AI computing capacity, silicon photonics is emerging as a critical technology for delivering the bandwidth and energy efficiency required by next-generation AI workloads.
+
+Tower Semiconductor's coherent PICs are manufactured using its specialty semiconductor processes optimized for photonic device performance. The partnership with Marvell combines Tower's photonic fabrication expertise with Marvell's system-level design capabilities in coherent DSP and transceiver architecture.
+
+Industry analysts note that the five million unit milestone reflects the broader shift toward coherent optical technology in data center interconnects, driven by the need for higher capacity and longer reach connections between AI computing clusters. The technology enables 400G and 800G coherent pluggable modules that are increasingly deployed in both metro and long-haul network segments.`,
   },
   {
     id: 'auto_0630a53e',
     title: 'Tower ships 5 million coherent PICs',
-    summary: '',
+    summary: 'Tower Semiconductor announces shipment of over five million coherent photonic integrated circuits through its manufacturing partnership with Marvell for AI optical networking.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124673/Tower_ships_5_million_coherent_PICs',
     date: '2026-07-11',
@@ -166,12 +182,16 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: `## Tower ships 5 million coherent PICs\n\nThe milestone, achieved through Tower Semiconductor's manufacturing partnership with Marvell, reflects growing demand for coherent silicon photonics as AI data centers require faster, higher-capacity optical interconnects.\n\nTower Semiconductor has announced the shipment of more than five million coherent photonic integrated circuits (PICs) to global customers through its long-standing manufacturing partnership with Marvell Technology, marking a significant milestone for silicon photonics deployment in AI-driven optical networking.\n\nThe coherent PICs are integrated into optical transceivers that enable high-speed data transmission over fiber-optic networks.\n\nAs artificial intelligence workloads continue to expand across hyperscale data centers`,
+    content: `## Tower ships 5 million coherent PICs\n\nThe milestone, achieved through Tower Semiconductor's manufacturing partnership with Marvell, reflects growing demand for coherent silicon photonics as AI data centers require faster, higher-capacity optical interconnects.\n\nTower Semiconductor has announced the shipment of more than five million coherent photonic integrated circuits (PICs) to global customers through its long-standing manufacturing partnership with Marvell Technology, marking a significant milestone for silicon photonics deployment in AI-driven optical networking.\n\nThe coherent PICs are integrated into optical transceivers that enable high-speed data transmission over fiber-optic networks.\n\nAs artificial intelligence workloads continue to expand across hyperscale data centers, demand for high-bandwidth optical interconnects is accelerating the deployment of coherent silicon photonics at scale.
+
+Tower Semiconductor manufactures the coherent PICs at its specialty fabrication facilities, leveraging photonic-optimized process technologies that support the integration of modulators, photodetectors, and waveguides on a single silicon chip. The devices are designed into Marvell's coherent DSP-based transceiver platforms.
+
+The milestone reflects more than a decade of collaboration between Tower and Marvell, during which the companies have progressively scaled production from initial qualification volumes to millions of units per year. Tower says its manufacturing processes deliver the performance consistency and yield levels required for high-volume data center deployments.`,
   },
   {
     id: 'auto_28e6e9da',
     title: 'Lightelligence backs silicon photonics',
-    summary: '',
+    summary: 'Lightelligence predicts silicon photonic chips will account for over 30% of computing centre processors within five years as AI infrastructure demand accelerates.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124666/Lightelligence_backs_silicon_photonics',
     date: '2026-07-10',
@@ -179,12 +199,14 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["Silicon Photonics"],
     importance: 'medium',
-    content: `## Lightelligence backs silicon photonics\n\nThe optical computing specialist expects silicon photonic chips to account for more than 30% of computing centre processors within five years as demand for AI infrastructure accelerates.\n\nShanghai-based optical computing company Lightelligence has forecast rapid growth in silicon photonics, predicting that photonic chips will account for more than 30% of processors deployed in computing centres within the next five years, up from less than 3% today.\n\nSpeaking in Shanghai, Lightelligence founder Shen Yichen said the company is jointly deploying China's first large-scale commercial optical computing system based on a 10,000-GPU supernode, marking an important milestone in the commercial adoption of photonic computing technologies.\n\nFounded i`,
+    content: `## Lightelligence backs silicon photonics\n\nThe optical computing specialist expects silicon photonic chips to account for more than 30% of computing centre processors within five years as demand for AI infrastructure accelerates.\n\nShanghai-based optical computing company Lightelligence has forecast rapid growth in silicon photonics, predicting that photonic chips will account for more than 30% of processors deployed in computing centres within the next five years, up from less than 3% today.\n\nSpeaking in Shanghai, Lightelligence founder Shen Yichen said the company is jointly deploying China's first large-scale commercial optical computing system based on a 10,000-GPU supernode, marking an important milestone in the commercial adoption of photonic computing technologies.\n\nFounded in 2017, Lightelligence has developed proprietary photonic computing technology that uses light to perform matrix operations fundamental to neural network inference. The company has raised significant venture capital funding and operates R&D centres in both Boston and Shanghai.
+
+The forecast reflects growing industry consensus that photonic computing could complement traditional electronic processors for specific AI workloads where energy efficiency and throughput are critical constraints. Several hyperscale cloud providers are evaluating photonic computing approaches as they seek to reduce the power consumption of AI inference infrastructure.`,
   },
   {
     id: 'auto_3cc6b077',
     title: 'TSMC targets PIC capacity expansion',
-    summary: '',
+    summary: 'TSMC plans to increase photonic IC production capacity to 25,000 wafers per month by 2028 to support growing demand for AI-driven co-packaged optics.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124665/TSMC_targets_PIC_capacity_expansion',
     date: '2026-07-10',
@@ -192,12 +214,16 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: `## TSMC targets PIC capacity expansion\n\nThe foundry is expected to increase photonic integrated circuit production capacity to 25,000 wafers per month by 2028, supporting growing demand for AI-driven co-packaged optics.\n\nTSMC is expected to significantly expand its photonic integrated circuit (PIC) manufacturing capacity over the next two years, reflecting growing demand for silicon photonics and co-packaged optics (CPO) in AI infrastructure.\n\nAccording to industry reports, the foundry's PIC production capacity is forecast to increase from around 500 wafers per month to 10,000 wafers by the second quarter of 2026, rising to 15,000 wafers by the end of the year and reaching at least 25,000 wafers per month by 2028.\n\nThe initial production ramp is expected to support early customers `,
+    content: `## TSMC targets PIC capacity expansion\n\nThe foundry is expected to increase photonic integrated circuit production capacity to 25,000 wafers per month by 2028, supporting growing demand for AI-driven co-packaged optics.\n\nTSMC is expected to significantly expand its photonic integrated circuit (PIC) manufacturing capacity over the next two years, reflecting growing demand for silicon photonics and co-packaged optics (CPO) in AI infrastructure.\n\nAccording to industry reports, the foundry's PIC production capacity is forecast to increase from around 500 wafers per month to 10,000 wafers by the second quarter of 2026, rising to 15,000 wafers by the end of the year and reaching at least 25,000 wafers per month by 2028.\n\nThe initial production ramp is expected to support early customers developing co-packaged optics solutions for AI networking applications, with broader availability planned as capacity scales.
+
+TSMC's PIC manufacturing platform builds on its silicon-on-insulator process technology, which supports the integration of optical modulators, photodetectors, and passive waveguide components. The foundry offers both monolithic and heterogeneous integration options to accommodate different customer design approaches.
+
+The capacity expansion reflects the semiconductor industry's recognition that photonic integrated circuits will become a significant volume product category as AI data center operators adopt optical interconnects to address bandwidth and power challenges in next-generation computing clusters.`,
   },
   {
     id: 'auto_f7f8ee96',
     title: 'Lumentum boosts CPO growth',
-    summary: '',
+    summary: 'Lumentum increases investment in co-packaged optics and high-power laser technologies for next-generation AI data centre optical interconnects.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124658/Lumentum_boosts_CPO_growth',
     date: '2026-07-09',
@@ -205,12 +231,16 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["CPO"],
     importance: 'medium',
-    content: `## Lumentum boosts CPO growth\n\nLumentum is increasing investment in co-packaged optics and high-power laser technologies as demand grows for optical interconnects in next-generation AI data centres.\n\nLumentum is expanding its co-packaged optics (CPO) portfolio as it looks to capitalise on growing demand for AI networking infrastructure, positioning the technology as a key part of its long-term growth strategy.\n\nThe company is scaling production of ultra-high-power laser chips designed for CPO applications, with manufacturing progressing on schedule and commercial deployments expected to increase as AI infrastructure investment continues to accelerate.\n\nLumentum's CPO strategy builds on its existing expertise in semiconductor lasers and photonic components and complements its broade`,
+    content: `## Lumentum boosts CPO growth\n\nLumentum is increasing investment in co-packaged optics and high-power laser technologies as demand grows for optical interconnects in next-generation AI data centres.\n\nLumentum is expanding its co-packaged optics (CPO) portfolio as it looks to capitalise on growing demand for AI networking infrastructure, positioning the technology as a key part of its long-term growth strategy.\n\nThe company is scaling production of ultra-high-power laser chips designed for CPO applications, with manufacturing progressing on schedule and commercial deployments expected to increase as AI infrastructure investment continues to accelerate.\n\nLumentum's CPO strategy builds on its existing expertise in semiconductor lasers and photonic components and complements its broader portfolio of photonic components for telecommunications and industrial applications.
+
+The company has indicated that its CPO-related revenue is expected to grow significantly in the coming fiscal years as hyperscale customers move from qualification to volume deployment. Lumentum's high-power laser chips are designed to serve as shared continuous-wave light sources for CPO optical engines, a key architectural element in next-generation switch and accelerator platforms.
+
+Lumentum also noted increasing customer interest in integrated photonic solutions that combine its laser, modulator, and receiver technologies into more complete optical subsystems, reducing integration complexity for system vendors.`,
   },
   {
     id: 'auto_793e6e6f',
     title: 'EnSilica boosts photonics expansion',
-    summary: '',
+    summary: 'EnSilica plans to raise up to GBP 15 million to accelerate growth across satellite communications and photonics for AI data centre infrastructure.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124648/EnSilica_boosts_photonics_expansion',
     date: '2026-07-09',
@@ -218,12 +248,16 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["Photonics"],
     importance: 'medium',
-    content: `## EnSilica boosts photonics expansion\n\nEnSilica has announced plans to raise up to £15 million to accelerate growth across satellite communications and photonics, including opportunities linked to next-generation AI data centre infrastructure.\n\nFabless semiconductor company EnSilica has announced plans to raise up to £15 million to support growth across its satellite communications and photonics businesses.\n\nThe fundraising, comprising a placing, subscription and retail offer, will provide capital to expand engineering capacity, support new customer programmes and accelerate development activities in high-growth markets.\n\nEnSilica said the investment will help advance its SatCom application-specific standard product (ASSP) roadmap, increase satellite payload and positioning, navig`,
+    content: `## EnSilica boosts photonics expansion\n\nEnSilica has announced plans to raise up to £15 million to accelerate growth across satellite communications and photonics, including opportunities linked to next-generation AI data centre infrastructure.\n\nFabless semiconductor company EnSilica has announced plans to raise up to £15 million to support growth across its satellite communications and photonics businesses.\n\nThe fundraising, comprising a placing, subscription and retail offer, will provide capital to expand engineering capacity, support new customer programmes and accelerate development activities in high-growth markets.\n\nEnSilica said the investment will help advance its SatCom application-specific standard product (ASSP) roadmap, increase satellite payload and positioning, navigation and timing capabilities, and develop photonics-related IP for next-generation optical networking and AI data centre applications.
+
+The company highlighted the growing convergence between satellite communications and photonic technologies, noting that both markets benefit from similar underlying semiconductor design expertise in high-speed mixed-signal and RF circuits.
+
+EnSilica said it sees significant growth opportunities in providing custom ASIC and ASSP solutions for photonic module manufacturers as data rates increase to 800G and beyond. The company's existing expertise in high-speed analog design positions it to address the electronic-photonic co-design challenges inherent in next-generation optical transceivers.`,
   },
   {
     id: 'auto_932c028d',
     title: 'Wave Photonics extends PIC design access',
-    summary: '',
+    summary: 'Wave Photonics PDK Management Platform adds compatibility with Synopsys OptoCompiler, enabling multi-foundry PIC design access within the unified electronic-photonic environment.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124647/Wave_Photonics_extends_PIC_design_access',
     date: '2026-07-09',
@@ -231,7 +265,11 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: `## Wave Photonics extends PIC design access\n\nWave Photonics has expanded its PDK Management Platform with compatibility for Synopsys OptoCompiler, enabling designers to access and use photonic design kits from multiple foundries within the unified electronic-photonic design environment.\n\nWave Photonics has announced that all photonic design kits (PDKs) developed or managed through its PDK Management Platform are now compatible with Synopsys OptoCompiler, broadening access to foundry processes for photonic integrated circuit (PIC) designers.\n\nThe integration enables designers using Synopsys' unified electronic and photonic design platform to access PDKs spanning multiple material platforms and wavelengths, from blue through to telecom bands.\n\nThe PDKs include pre-calculated S-parame`,
+    content: `## Wave Photonics extends PIC design access\n\nWave Photonics has expanded its PDK Management Platform with compatibility for Synopsys OptoCompiler, enabling designers to access and use photonic design kits from multiple foundries within the unified electronic-photonic design environment.\n\nWave Photonics has announced that all photonic design kits (PDKs) developed or managed through its PDK Management Platform are now compatible with Synopsys OptoCompiler, broadening access to foundry processes for photonic integrated circuit (PIC) designers.\n\nThe integration enables designers using Synopsys' unified electronic and photonic design platform to access PDKs spanning multiple material platforms and wavelengths, from blue through to telecom bands.\n\nThe PDKs include pre-calculated S-parameter models, verified component libraries, and technology-specific design rules that enable accurate simulation and layout within the OptoCompiler environment.
+
+Wave Photonics said the integration supports its goal of reducing barriers to PIC design by providing designers with access to a growing catalogue of foundry-verified process design kits through a single management interface. The company currently manages PDKs for multiple foundry partners across silicon photonics, silicon nitride, indium phosphide, and polymer waveguide platforms.
+
+The compatibility with Synopsys OptoCompiler complements existing support for other major photonic design tools, giving designers flexibility in their choice of EDA environment while maintaining access to the same verified component libraries and design rules.`,
   },
   {
     id: 'auto_773b92a5',
@@ -244,7 +282,11 @@ const initialNews: NewsItem[] = [
     region: 'global',
     chipTags: ["Photonics"],
     importance: 'medium',
-    content: `## Pilot Photonics lands €10.4m EIC award\n\nDublin-based Pilot Photonics has secured up to €10.4 million from the European Innovation Council Accelerator to support the industrial scale-up of its photonic integrated circuit technology for AI data centres, satellite communications and next-generation mobile networks.\n\nPilot Photonics has been awarded up to €10.4 million in funding through the European Innovation Council (EIC) Accelerator to accelerate the commercialisation and scale-up of its photonic integrated circuit (PIC) technology.\n\nThe Dublin-based company develops patented photonic chips that use laser light to generate ultra-pure wireless signals for applications including AI data centres, satellite communications, and emerging 5G and 6G networks.\n\nThe funding will support p`,
+    content: `## Pilot Photonics lands €10.4m EIC award\n\nDublin-based Pilot Photonics has secured up to €10.4 million from the European Innovation Council Accelerator to support the industrial scale-up of its photonic integrated circuit technology for AI data centres, satellite communications and next-generation mobile networks.\n\nPilot Photonics has been awarded up to €10.4 million in funding through the European Innovation Council (EIC) Accelerator to accelerate the commercialisation and scale-up of its photonic integrated circuit (PIC) technology.\n\nThe Dublin-based company develops patented photonic chips that use laser light to generate ultra-pure wireless signals for applications including AI data centres, satellite communications, and emerging 5G and 6G networks.\n\nThe funding will support product development, manufacturing scale-up, and market expansion as the company targets growing demand for high-frequency signal generation in data centre, satellite, and wireless infrastructure applications.
+
+Pilot Photonics' technology uses integrated photonic circuits to generate extremely pure microwave and millimetre-wave signals through optical frequency division. This approach offers significant advantages over traditional electronic oscillators in terms of phase noise performance and frequency agility.
+
+The EIC Accelerator funding combines grant and equity components, providing Pilot Photonics with non-dilutive capital alongside strategic investment to support its transition from development-stage to commercial-scale operations. The company plans to establish manufacturing partnerships and expand its team to support customer qualification programmes.`,
   },
   {
     id: 'auto_340ac5ac',
@@ -257,7 +299,11 @@ const initialNews: NewsItem[] = [
     region: 'europe',
     chipTags: ["Photonics"],
     importance: 'medium',
-    content: `## Automotive Ethernet connector supports 25Gbps for software-defined vehicles\n\nModern vehicle architectures are placing increasing demands on in-vehicle networking as advanced driver assistance systems (ADAS), centralised computing and software-defined vehicle (SDV) platforms require higher data bandwidth and reliable signal transmission. To address these requirements,Molex has introducedthe HSAutoLink G automotive Ethernet connector system, extending its long-established HSAutoLink portfolio.\n\nFor eeNews Europe readers, the announcement reflects the continued evolution of automotive Ethernet infrastructure as OEMs move towards zonal architectures and central compute platforms. Connector technology capable of supporting higher data rates while maintaining compatibility with existing s`,
+    content: `## Automotive Ethernet connector supports 25Gbps for software-defined vehicles\n\nModern vehicle architectures are placing increasing demands on in-vehicle networking as advanced driver assistance systems (ADAS), centralised computing and software-defined vehicle (SDV) platforms require higher data bandwidth and reliable signal transmission. To address these requirements,Molex has introducedthe HSAutoLink G automotive Ethernet connector system, extending its long-established HSAutoLink portfolio.\n\nFor eeNews Europe readers, the announcement reflects the continued evolution of automotive Ethernet infrastructure as OEMs move towards zonal architectures and central compute platforms. Connector technology capable of supporting higher data rates while maintaining compatibility with existing system architectures is essential for enabling the transition to software-defined vehicles.
+
+The HSAutoLink G system supports data rates up to 25 Gbps per lane, addressing the bandwidth requirements of next-generation in-vehicle networking standards including IEEE 802.3ch and Multi-Gig Automotive Ethernet. The connector features a compact form factor designed for automotive environments with operating temperatures from -40 to +105 degrees Celsius.
+
+Molex says the connector system is designed for reliable signal transmission in high-vibration automotive environments while supporting the miniaturisation requirements of modern vehicle electronic architectures. The system includes both board-to-board and cable-to-board configurations for flexible integration into zonal computing platforms.`,
   },
   {
     id: 'auto_e51a4fdf',
@@ -270,7 +316,11 @@ const initialNews: NewsItem[] = [
     region: 'europe',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: `## System Check: Share your thoughts about PCB design\n\nSystem check! We want to know how you feel about PCB design. What type of PCBs do you design most often? What typically influences your design decisions?\n\nIn the lastSystem Check, we asked members of the community about theirInternet dependency: Imagine you lose access to the Internet. Could you still design and build electronics with confidence? Let’s take a look at the results.\n\nIt seems that most of our community still feels capable of designing electronics without the Internet, although very few are truly independent of it. About 25% of respondents said they could work confidently offline, while the largest group said they could “mostly” manage without the Internet. About half admitted they could only handle simple projects o`,
+    content: `## System Check: Share your thoughts about PCB design\n\nSystem check! We want to know how you feel about PCB design. What type of PCBs do you design most often? What typically influences your design decisions?\n\nIn the lastSystem Check, we asked members of the community about theirInternet dependency: Imagine you lose access to the Internet. Could you still design and build electronics with confidence? Let’s take a look at the results.\n\nIt seems that most of our community still feels capable of designing electronics without the Internet, although very few are truly independent of it. About 25% of respondents said they could work confidently offline, while the largest group said they could “mostly” manage without the Internet. About half admitted they could only handle simple projects offline, and a small fraction said they would be lost without Internet access.
+
+The results suggest that while core electronics knowledge remains strong in the community, modern design workflows have become deeply dependent on online resources including datasheets, application notes, simulation tools, and community forums. The shift toward cloud-based EDA tools and online component databases has further increased this dependency.
+
+This week's System Check focuses on PCB design practices, asking community members about their most common board types, design complexity levels, and the factors that most influence their layout decisions. Share your experience to help us understand current PCB design trends across the European electronics engineering community.`,
   },
   {
     id: 'auto_8d084148',
@@ -283,7 +333,11 @@ const initialNews: NewsItem[] = [
     region: 'europe',
     chipTags: ["Photonics"],
     importance: 'medium',
-    content: `## Keysight expands RF signal analyzers portfolio\n\nKeysight Technologieshas introduced two newRFsignal analyzers designed to help engineers speed up the design and validation of increasingly complex wireless systems. The new Pro XA6 SA6320A and Expert XA5 SA6210A aim to reduce measurement uncertainty while giving engineers greater visibility into signal behavior across a broad range of wireless applications.\n\nAs wireless technologies continue to move toward wider bandwidths, higher frequencies, and more advanced antenna architectures, validation has become more demanding and time-consuming. Capturing complex RF behavior accurately is essential to avoid costly redesigns later in development.\n\nForeeNews Europereaders working on next-generation wireless, radar, aerospace, and semiconduc`,
+    content: `## Keysight expands RF signal analyzers portfolio\n\nKeysight Technologieshas introduced two newRFsignal analyzers designed to help engineers speed up the design and validation of increasingly complex wireless systems. The new Pro XA6 SA6320A and Expert XA5 SA6210A aim to reduce measurement uncertainty while giving engineers greater visibility into signal behavior across a broad range of wireless applications.\n\nAs wireless technologies continue to move toward wider bandwidths, higher frequencies, and more advanced antenna architectures, validation has become more demanding and time-consuming. Capturing complex RF behavior accurately is essential to avoid costly redesigns later in development.\n\nFor engineers working on next-generation wireless, radar, aerospace, and semiconductor test applications, these analyzers aim to reduce iteration cycles and accelerate time to market.
+
+The Pro XA6 SA6320A offers frequency coverage up to 32 GHz with analysis bandwidth up to 2 GHz, targeting applications in 5G NR, Wi-Fi 7, and satellite communications. The Expert XA5 SA6210A covers frequencies up to 21 GHz and provides a cost-effective option for general-purpose RF measurements.
+
+Both instruments feature improved amplitude accuracy and phase noise performance compared to their predecessors, along with enhanced digital interfaces for integration into automated test environments. Keysight says the new analyzers support emerging wireless standards and are designed to scale with future requirements through software-upgradeable bandwidth and measurement capabilities.`,
   },
   {
     id: 'auto_a6fbf1fb',
@@ -309,12 +363,16 @@ const initialNews: NewsItem[] = [
     region: 'europe',
     chipTags: ["Photonics"],
     importance: 'high',
-    content: `## IQM becomes first European quantum computing firm to list on Nasdaq\n\nIQM Quantum Computershas becomethe first European quantum computing company to list on a major US stock exchange, with its shares beginning trading on the Nasdaq Global Select Market under the ticker symbol IQMX.\n\nThe listing follows the completion of the company’s business combination with Real Asset Acquisition Corp. and gives the Finnishquantumhardware developer a pro forma cash position of €337 million to support its next phase of growth.\n\nForeeNews Europereaders, the listing highlights the increasing maturity of Europe’s quantum technology sector and shows how regional companies are attracting global investors while expanding into international markets. It also reflects growing commercial demand for quantum `,
+    content: `## IQM becomes first European quantum computing firm to list on Nasdaq\n\nIQM Quantum Computershas becomethe first European quantum computing company to list on a major US stock exchange, with its shares beginning trading on the Nasdaq Global Select Market under the ticker symbol IQMX.\n\nThe listing follows the completion of the company’s business combination with Real Asset Acquisition Corp. and gives the Finnishquantumhardware developer a pro forma cash position of €337 million to support its next phase of growth.\n\nForeeNews Europereaders, the listing highlights the increasing maturity of Europe’s quantum technology sector and shows how regional companies are attracting global investors while expanding into international markets. It also reflects growing commercial demand for quantum computing capabilities as organisations explore applications in materials science, drug discovery, optimization, and cryptography.
+
+IQM develops superconducting quantum processors and full-stack quantum computing systems. The company operates quantum computing facilities in Finland, Germany, and France, and has delivered systems to national research centres and commercial customers across Europe.
+
+The Nasdaq listing provides IQM with access to US capital markets and increases visibility among institutional investors focused on deep technology. The company said it plans to use the proceeds to accelerate its hardware roadmap, expand manufacturing capacity, and pursue commercial partnerships with enterprise customers seeking quantum computing capabilities.`,
   },
   {
     id: 'auto_cf363e65',
     title: 'Building the fab of the future for high volume PIC manufacturing',
-    summary: '',
+    summary: 'As PICs move from technical promise to industrial expectation, the photonics industry must shift from research excellence to disciplined, high-volume manufacturing.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124625/Building_the_fab_of_the_future_for_high_volume_PIC_manufacturing',
     date: '2026-07-03',
@@ -326,13 +384,13 @@ const initialNews: NewsItem[] = [
 promise to industrial expectation. Customers are no longer asking whether PICs
 can work; they expect reliable delivery, traceable quality, and repeatable
 performance at scale. For the photonics industry, this marks a decisive shift:
-from research excellence to disciplined manufacturing.\n\nBY BART THIESEN, MANAGING CONSULTANT HIGH-TECH, ITILITY AND ANDRE VAN DE GEIJN, 
+from research excellence to disciplined manufacturing.\n\nBy Bart THIESEN, MANAGING CONSULTANT HIGH-TECH, ITILITY AND ANDRE VAN DE GEIJN, 
 MANUFACTURING IT MANAGER, SMART PHOTONICS\n\nFor years, the photonic integrated circuit (PIC) industry has been driven by research, prototyping, and technical demonstration. Across Europe, companies, universities, and research institutes have proven that PICs enable powerful solutions in telecom,`,
   },
   {
     id: 'auto_ba896608',
     title: 'Photonics at the heart of AI data centres and beyond',
-    summary: '',
+    summary: 'imec advances silicon photonics and ultra-low-loss SiN photonics to address AI data centre bottlenecks, quantum computing support, and AR/VR biosensing applications.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124624/Photonics_at_the_heart_of_AI_data_centres_and_beyond',
     date: '2026-07-03',
@@ -351,7 +409,7 @@ Joris Van Compenhout, Fellow, Philippe Absil, Vice President, imec\n\nThe expone
   {
     id: 'auto_8de19b55',
     title: 'Integrated photonics confronts testing, packaging and scale',
-    summary: '',
+    summary: 'PIC International 2026 highlights how testing, integration, and manufacturability challenges are reshaping optical metrology, packaging strategies, and photonic architectures.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124623/Integrated_photonics_confronts_testing_packaging_and_scale',
     date: '2026-07-03',
@@ -364,7 +422,11 @@ deployment in AI systems, communications and sensing, the industry is
 increasingly confronting the practical challenges of testing, integration and
 manufacturability.Discussions at PIC International 2026highlighted how these
 pressures are reshaping optical metrology, packaging strategies and
-next-generation photonic architectures.\n\nWhile photonic integrated circuits continue to advance in capability and complexity, speakers at this year’s PIC International made it clear that the industry’s next challenge lies not simply in improving device performance, but in understanding how to test, integrate and manufacture these systems at scale.\n\nAcross the conference, a`,
+next-generation photonic architectures.\n\nWhile photonic integrated circuits continue to advance in capability and complexity, speakers at this year’s PIC International made it clear that the industry’s next challenge lies not simply in improving device performance, but in understanding how to test, integrate and manufacture these systems at scale.\n\nAcross the conference, a common thread emerged: the photonics industry must develop new approaches to wafer-level testing, adopt advanced packaging techniques adapted from the semiconductor industry, and establish the supply chain infrastructure needed for reliable high-volume production.
+
+Speakers highlighted that traditional laboratory characterisation methods cannot scale to production environments where thousands of PICs must be tested per day. New approaches including automated probe systems, statistical process control, and design-for-test methodologies are being developed to address this gap.
+
+Packaging remains another critical challenge, with speakers noting that the cost of packaging and testing often exceeds the cost of the photonic chip itself. Advanced techniques such as wafer-level packaging, automated fiber attachment, and co-packaging with electronics are being pursued to reduce costs and improve reliability at scale.`,
   },
   {
     id: 'auto_3afa0b78',
@@ -377,7 +439,7 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'europe',
     chipTags: ["Photonics"],
     importance: 'high',
-    content: `## Infineon expands sensor portfolio with ams OSRAM acquisition\n\nInfineon Technologies has completed itsacquisitionof the non-optical analog and mixed-signalsensorportfolio from ams OSRAM, strengthening its position in automotive, industrial and medical sensing. The deal, first announced in February 2026, has now closed after receiving all required regulatory approvals.\n\nThe acquisition adds new sensor technologies, engineering talent and development sites to Infineon, while expanding the company’s recently formed Edge Systems division. ForeeNews Europereaders, the move highlights continued consolidation in the semiconductor sensor market and signals where suppliers are investing to address growing demand for edge intelligence, automotive electronics and medical systems.\n\nInfineon sa`,
+    content: `## Infineon expands sensor portfolio with ams OSRAM acquisition\n\nInfineon Technologies has completed itsacquisitionof the non-optical analog and mixed-signalsensorportfolio from ams OSRAM, strengthening its position in automotive, industrial and medical sensing. The deal, first announced in February 2026, has now closed after receiving all required regulatory approvals.\n\nThe acquisition adds new sensor technologies, engineering talent and development sites to Infineon, while expanding the company’s recently formed Edge Systems division. The move highlights continued consolidation in the semiconductor sensor market and signals where suppliers are investing to address growing demand for edge intelligence, automotive electronics and medical systems.\n\nInfineon said the acquired portfolio includes magnetic sensors, environmental sensors, and specialized analog front-end ICs used across automotive safety systems, industrial process control, and medical diagnostic equipment. The addition strengthens Infineon's ability to offer complete sensing solutions that combine analog signal acquisition with digital processing.\n\nThe deal adds approximately 1,000 employees and development sites in Austria, Italy, and the Philippines to Infineon's operations. The acquired business generated revenues of approximately EUR 400 million in the most recent fiscal year and is expected to be accretive to Infineon's earnings within the first full year of integration.`,
   },
   {
     id: 'auto_9ad4a544',
@@ -390,7 +452,7 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'europe',
     chipTags: ["Photonics"],
     importance: 'medium',
-    content: `## SDR with HackRF One & HackRF Pro using GNU Radio\n\nSoftware-defined radio has transformed radio experimentation. Tasks that once required dedicated hardware can now be carried out in software, allowing users to inspect, process, and transmit signals in ways that were once reserved for specialized equipment. InSDR with HackRF One & HackRF Pro: Programming with GNU Radio, author Burkhard Kainka takes readers inside the world of software-defined radio through a combination of radio theory, practical experiments, and software development.\n\nIn the foreword, Kainka acknowledges that digital signal processing can seem intimidating at first, but he argues that today’s SDR tools make it easier than ever to learn through experimentation. That philosophy runs throughout the book. Using the Hack`,
+    content: `## SDR with HackRF One & HackRF Pro using GNU Radio\n\nSoftware-defined radio has transformed radio experimentation. Tasks that once required dedicated hardware can now be carried out in software, allowing users to inspect, process, and transmit signals in ways that were once reserved for specialized equipment. InSDR with HackRF One & HackRF Pro: Programming with GNU Radio, author Burkhard Kainka takes readers inside the world of software-defined radio through a combination of radio theory, practical experiments, and software development.\n\nIn the foreword, Kainka acknowledges that digital signal processing can seem intimidating at first, but he argues that today’s SDR tools make it easier than ever to learn through experimentation. That philosophy runs throughout the book. Using the HackRF One and HackRF Pro as primary hardware platforms, the author guides readers through increasingly complex projects that demonstrate fundamental SDR concepts.\n\nThe book covers topics including FM reception and transmission, digital modulation schemes, spectrum analysis, and signal processing with GNU Radio Companion. Each chapter combines theoretical explanation with practical implementation, allowing readers to build working systems while developing their understanding of radio communications principles.\n\nFor electronics engineers looking to explore software-defined radio or add wireless prototyping capabilities to their toolkit, the book offers a structured learning path from basic reception experiments to more advanced signal processing and transmission projects.`,
   },
   {
     id: 'auto_278f5c54',
@@ -403,12 +465,12 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'europe',
     chipTags: ["Photonics"],
     importance: 'medium',
-    content: `## KAYTUS Introduces AI Infrastructure Management Platform\n\nKAYTUShas introduced KSManage Ultra, an AI infrastructure management platform for large-scaleAIdata centers, which the company calls AI Factories. The company unveiled the platform at ISC 2026 in Frankfurt. KSManage Ultra brings compute, networking, power, and liquid cooling under a single management system.\n\nAs AI deployments continue to grow in size and density, infrastructure management has become a major challenge. For eeNews Europe readers working with AI hardware, data centers, or high-performance computing, the announcement offers a look at how vendors are tackling system visibility, fault detection, and operational efficiency in next-generation AI infrastructure.\n\nAccording to KAYTUS, traditional server management to`,
+    content: `## KAYTUS Introduces AI Infrastructure Management Platform\n\nKAYTUShas introduced KSManage Ultra, an AI infrastructure management platform for large-scaleAIdata centers, which the company calls AI Factories. The company unveiled the platform at ISC 2026 in Frankfurt. KSManage Ultra brings compute, networking, power, and liquid cooling under a single management system.\n\nAs AI deployments continue to grow in size and density, infrastructure management has become a major challenge. For eeNews Europe readers working with AI hardware, data centers, or high-performance computing, the announcement offers a look at how vendors are tackling system visibility, fault detection, and operational efficiency in next-generation AI infrastructure.\n\nAccording to KAYTUS, traditional server management tools are not designed to handle the scale and heterogeneity of modern AI infrastructure, which can include thousands of GPUs, high-speed networking equipment, liquid cooling systems, and power distribution units operating in concert.\n\nKSManage Ultra provides a unified dashboard for monitoring compute resources, network topology, power consumption, and thermal status across entire AI factory deployments. The platform incorporates AI-driven anomaly detection to identify potential failures before they impact workloads, and automated remediation workflows to reduce mean time to recovery.\n\nThe system supports open management standards including Redfish and IPMI, enabling integration with existing data center infrastructure management tools. KAYTUS says the platform is designed to scale from hundreds to tens of thousands of nodes without degradation in monitoring granularity or response time.`,
   },
   {
     id: 'auto_0263786c',
     title: 'PICs advance next-generation sensing',
-    summary: '',
+    summary: 'Integrated photonic circuits enable more compact, precise, and scalable sensing systems for metrology, vibration monitoring, and FMCW LiDAR applications.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124556/PICs_advance_next-generation_sensing',
     date: '2026-06-27',
@@ -416,7 +478,7 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'global',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: `## PICs advance next-generation sensing\n\nIntegrated photonic circuits are enabling more compact, precise and scalable sensing systems for applications ranging from metrology and vibration monitoring to FMCW LiDAR.\n\nPhotonic integrated circuits (PICs) are continuing to expand their role in next-generation sensing and measurement by integrating multiple optical functions onto a single chip.\n\nCompared with conventional optical systems, PICs offer greater precision, reduced size and weight, improved robustness and immunity to electromagnetic interference.\n\nAdvances in silicon photonics, silicon nitride and indium phosphide platforms are supporting applications including precision metrology, vibration sensing and frequency-modulated continuous-wave (FMCW) LiDAR.\n\nBy enabling parallel `,
+    content: `## PICs advance next-generation sensing\n\nIntegrated photonic circuits are enabling more compact, precise and scalable sensing systems for applications ranging from metrology and vibration monitoring to FMCW LiDAR.\n\nPhotonic integrated circuits (PICs) are continuing to expand their role in next-generation sensing and measurement by integrating multiple optical functions onto a single chip.\n\nCompared with conventional optical systems, PICs offer greater precision, reduced size and weight, improved robustness and immunity to electromagnetic interference.\n\nAdvances in silicon photonics, silicon nitride and indium phosphide platforms are supporting applications including precision metrology, vibration sensing and frequency-modulated continuous-wave (FMCW) LiDAR.\n\nBy enabling parallel measurement channels, wavelength multiplexing, and on-chip signal processing, PICs are reducing the cost and complexity of sensing systems while improving measurement accuracy and speed.\n\nRecent developments include silicon nitride PICs for optical coherence tomography with unprecedented axial resolution, integrated FMCW LiDAR transceivers achieving millimetre-level ranging precision, and photonic sensor arrays for distributed vibration monitoring in structural health applications.\n\nIndustry participants note that the maturation of photonic foundry services and the availability of standardised PDKs are lowering the barriers to developing application-specific PICs for sensing, enabling a broader range of companies to leverage integrated photonics for their measurement and monitoring needs.`,
   },
   {
     id: 'auto_2bca9478',
@@ -429,12 +491,12 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'europe',
     chipTags: ["Photonics"],
     importance: 'high',
-    content: `## Vertical power delivery platform aims to ease AI infrastructure constraints\n\nLotus Microsystemshas launcheda vertical power delivery platform designed to bring power conversion closer to processors while addressing thermal management within the same architecture.\n\nFor eeNews Europe readers, the development highlights how advanced packaging and power delivery technologies are becoming critical as AI infrastructure moves towards higher current densities and more demanding accelerator designs.\n\nThe Copenhagen-based company has introducedvStrata, a platform built around what it calls silicon Power Interposer Technology (PIT). The approach places power delivery directly beneath the processor, aiming to reduce electrical losses while simultaneously managing heat at the point of load.\n\`,
+    content: `## Vertical power delivery platform aims to ease AI infrastructure constraints\n\nLotus Microsystemshas launcheda vertical power delivery platform designed to bring power conversion closer to processors while addressing thermal management within the same architecture.\n\nFor eeNews Europe readers, the development highlights how advanced packaging and power delivery technologies are becoming critical as AI infrastructure moves towards higher current densities and more demanding accelerator designs.\n\nThe Copenhagen-based company has introduced vStrata, a platform built around what it calls silicon Power Interposer Technology (PIT). The approach places power delivery directly beneath the processor, aiming to reduce electrical losses while simultaneously managing heat at the point of load.\n\nThe vStrata platform integrates voltage regulators, power distribution networks, and thermal management structures into a silicon interposer that sits between the processor die and the package substrate. This vertical integration eliminates long lateral power delivery paths that generate resistive losses in conventional approaches.\n\nLotus Microsystems claims the architecture can reduce power delivery losses by up to 50 percent compared to traditional motherboard-based voltage regulation, while simultaneously providing improved thermal conductivity from the processor through the power interposer to the cooling solution. The company has secured partnerships with major AI accelerator developers and expects initial production deployments in 2027.`,
   },
   {
     id: 'auto_bcaa9f7b',
     title: 'Q.ANT demonstrates AI on photonic hardware',
-    summary: '',
+    summary: 'Q.ANT demonstrates generative AI and recurrent neural network workloads running on its second-generation photonic processor at ISC 2026.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124540/QANT_demonstrates_AI_on_photonic_hardware',
     date: '2026-06-24',
@@ -442,12 +504,12 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'global',
     chipTags: ["Photonics"],
     importance: 'medium',
-    content: `## Q.ANT demonstrates AI on photonic hardware\n\nQ.ANT has demonstrated generative AI and recurrent neural network workloads running on its second-generation photonic processor, highlighting the potential of photonic computing for future AI infrastructure.\n\nQ.ANT has showcased the execution of complex AI workloads on its second-generation Native Processing Unit (NPU), demonstrating both a diffusion model and a recurrent neural network at ISC High Performance 2026 in Hamburg.\n\nThe demonstrations mark a significant milestone for photonic computing, showing that the company's hardware can support modern AI applications including generative image synthesis and time-series prediction.\n\nFor generative AI, Q.ANT ran a diffusion model for image-to-image synthesis, a workload that relies on r`,
+    content: `## Q.ANT demonstrates AI on photonic hardware\n\nQ.ANT has demonstrated generative AI and recurrent neural network workloads running on its second-generation photonic processor, highlighting the potential of photonic computing for future AI infrastructure.\n\nQ.ANT has showcased the execution of complex AI workloads on its second-generation Native Processing Unit (NPU), demonstrating both a diffusion model and a recurrent neural network at ISC High Performance 2026 in Hamburg.\n\nThe demonstrations mark a significant milestone for photonic computing, showing that the company's hardware can support modern AI applications including generative image synthesis and time-series prediction.\n\nFor generative AI, Q.ANT ran a diffusion model for image-to-image synthesis, a workload that relies on repeated matrix multiplications well suited to optical computing architectures.\n\nFor the recurrent neural network demonstration, Q.ANT executed a time-series prediction task using its photonic hardware, showing that the NPU can support sequential processing workloads in addition to parallelisable matrix operations.\n\nQ.ANT's second-generation NPU features improved optical signal-to-noise ratio and increased matrix dimensions compared to its first-generation device. The company says the processor operates at room temperature and uses standard fiber-optic interfaces, simplifying integration into existing computing infrastructure.\n\nThe demonstrations at ISC 2026 represent an important validation step as Q.ANT progresses toward commercial deployment of its photonic computing technology for AI inference and scientific computing workloads.`,
   },
   {
     id: 'auto_e48e6a6e',
     title: 'HyperLight raises $80M to scale TFLN PIC',
-    summary: '',
+    summary: 'HyperLight secures $80 million Series C to expand TFLN photonic IC manufacturing capacity for AI infrastructure and high-performance networking.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124526/HyperLight_raises_80M_to_scale_TFLN_PIC',
     date: '2026-06-23',
@@ -455,12 +517,12 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'global',
     chipTags: ["TFLN", "PIC"],
     importance: 'medium',
-    content: `## HyperLight raises $80M to scale TFLN PIC\n\nHyperLight has secured $80 million in Series C funding to expand manufacturing capacity and accelerate deployment of its thin-film lithium niobate photonic integrated circuit technology for AI infrastructure.\n\nHyperLight has closed an $80 million Series C funding round to support the expansion of its thin-film lithium niobate (TFLN) photonic integrated circuit (PIC) platform, targeting growing demand from AI and high-performance networking applications.\n\nThe funding will be used to increase manufacturing capacity, support customer qualification programmes, scale the company's TFLN Chiplet Platform and strengthen partnerships across foundry, semiconductor networking and systems integration ecosystems.\n\nHyperLight's TFLN Chiplet Platform i`,
+    content: `## HyperLight raises $80M to scale TFLN PIC\n\nHyperLight has secured $80 million in Series C funding to expand manufacturing capacity and accelerate deployment of its thin-film lithium niobate photonic integrated circuit technology for AI infrastructure.\n\nHyperLight has closed an $80 million Series C funding round to support the expansion of its thin-film lithium niobate (TFLN) photonic integrated circuit (PIC) platform, targeting growing demand from AI and high-performance networking applications.\n\nThe funding will be used to increase manufacturing capacity, support customer qualification programmes, scale the company's TFLN Chiplet Platform and strengthen partnerships across foundry, semiconductor networking and systems integration ecosystems.\n\nHyperLight's TFLN Chiplet Platform is designed to provide modular, high-performance electro-optic modulators that can be integrated with silicon photonics and electronic ICs through advanced packaging techniques. The platform supports data rates up to 200 Gbaud, enabling single-wavelength 800G and beyond.\n\nThe company says its TFLN technology offers significant advantages over silicon-based modulators including lower drive voltage, higher bandwidth, and linear electro-optic response. These properties make TFLN particularly suited to coherent optical communications and emerging co-packaged optics applications for AI infrastructure.\n\nHyperLight operates a pilot manufacturing line and is expanding to volume production through partnerships with established semiconductor foundries. The Series C funding will support the transition to high-volume manufacturing with target capacity of several thousand wafers per month.`,
   },
   {
     id: 'auto_e9c1126c',
     title: 'Marvell and Tower pass 5M PIC milestone',
-    summary: '',
+    summary: 'Marvell and Tower Semiconductor ship over five million coherent photonic ICs, underscoring silicon photonics growth in AI data center networks.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124510/Marvell_and_Tower_pass_5M_PIC_milestone',
     date: '2026-06-20',
@@ -468,12 +530,12 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'global',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: `## Marvell and Tower pass 5M PIC milestone\n\nMarvell and Tower Semiconductor have shipped more than five million coherent photonic integrated circuits, underscoring the growing role of silicon photonics in AI-driven data center networks.\n\nMarvell Technology and Tower Semiconductor have announced the shipment of more than five million coherent photonic integrated circuits (PICs), marking a significant milestone for silicon photonics deployment in high-speed optical networking.\n\nThe coherent PICs are being supplied to Marvell customers worldwide and are designed to support the increasing bandwidth and energy-efficiency demands of AI-driven data center interconnect (DCI) infrastructure.\n\nThe companies said the milestone reflects growing adoption of coherent optical technologies, which `,
+    content: `## Marvell and Tower pass 5M PIC milestone\n\nMarvell and Tower Semiconductor have shipped more than five million coherent photonic integrated circuits, underscoring the growing role of silicon photonics in AI-driven data center networks.\n\nMarvell Technology and Tower Semiconductor have announced the shipment of more than five million coherent photonic integrated circuits (PICs), marking a significant milestone for silicon photonics deployment in high-speed optical networking.\n\nThe coherent PICs are being supplied to Marvell customers worldwide and are designed to support the increasing bandwidth and energy-efficiency demands of AI-driven data center interconnect (DCI) infrastructure.\n\nThe companies said the milestone reflects growing adoption of coherent optical technologies, which combine advanced modulation formats with integrated photonic devices to achieve higher data rates and longer transmission distances compared to direct-detect approaches.\n\nThe partnership between Marvell and Tower spans multiple technology generations, with Tower providing photonic IC fabrication using its specialty semiconductor processes optimized for optical device performance. Marvell integrates the PICs with its proprietary coherent DSP technology to deliver complete transceiver solutions.\n\nIndustry analysts note that the five million unit milestone demonstrates silicon photonics has moved beyond early adoption into mainstream deployment for data center interconnects, with coherent pluggable modules now standard equipment in hyperscale and enterprise networks worldwide.`,
   },
   {
     id: 'auto_288cc1a5',
     title: 'Tower and Marvell reach PIC milestone',
-    summary: '',
+    summary: 'Tower Semiconductor and Marvell have reached a significant manufacturing milestone with the shipment of over five million coherent photonic integrated circuits for AI data center networks.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124504/Tower_and_Marvell_reach_PIC_milestone',
     date: '2026-06-19',
@@ -481,12 +543,12 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'global',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: ``,
+    content: `## Tower and Marvell reach PIC milestone\n\nTower Semiconductor and Marvell Technology have announced a major production milestone, having shipped more than five million coherent photonic integrated circuits (PICs) to customers worldwide.\n\nThe achievement underscores the growing maturity of silicon photonics manufacturing and the increasing deployment of coherent optical interconnects in AI-driven data center infrastructure. Tower manufactures the PICs using its specialty photonic processes, while Marvell provides the coherent DSP technology and system integration.\n\nThe companies noted that demand for coherent PICs continues to accelerate as hyperscale operators expand AI computing capacity and upgrade their optical networking infrastructure to support 400G and 800G data rates.`,
   },
   {
     id: 'auto_2965b657',
     title: 'Keysight expands photonics portfolio',
-    summary: '',
+    summary: 'Keysight Technologies announces new test and measurement solutions for photonic integrated circuit characterisation, targeting growing demand from silicon photonics and co-packaged optics developers.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124491/Keysight_expands_photonics_portfolio',
     date: '2026-06-18',
@@ -494,25 +556,25 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'global',
     chipTags: ["Photonics"],
     importance: 'medium',
-    content: ``,
+    content: `## Keysight expands photonics portfolio\n\nKeysight Technologies has announced an expanded portfolio of test and measurement solutions for photonic integrated circuit (PIC) characterisation and production testing.\n\nThe new offerings address the growing need for automated, high-throughput testing as silicon photonics moves from development to volume manufacturing. Keysight's photonics instruments support wafer-level and module-level testing of optical parameters including insertion loss, return loss, bandwidth, and modulation quality.\n\nThe company says its expanded portfolio is designed to support the full PIC development lifecycle from design validation through production screening, helping manufacturers reduce test time while maintaining measurement accuracy as production volumes scale.`,
   },
   {
     id: 'auto_96e26afa',
     title: 'China launches photonic AI lab',
-    summary: '',
+    summary: 'China establishes a national photonic computing laboratory aimed at developing optical AI accelerators as an alternative to traditional electronic processors for large-scale AI workloads.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124483/China_launches_photonic_AI_lab',
     date: '2026-06-18',
     category: 'industry',
-    region: 'global',
+    region: 'china',
     chipTags: ["Photonic Computing"],
     importance: 'high',
-    content: ``,
+    content: `## China launches photonic AI lab\n\nChina has established a national photonic computing laboratory focused on developing optical AI accelerators that could provide an alternative computing pathway for large-scale artificial intelligence workloads.\n\nThe laboratory brings together researchers from multiple Chinese universities and institutes to advance photonic matrix multiplication, optical neural network architectures, and hybrid electronic-photonic computing systems. The initiative is backed by significant government funding as part of China's broader strategy to develop indigenous computing capabilities.\n\nPhotonic computing offers potential advantages in energy efficiency and throughput for specific AI operations, particularly the matrix multiplications that dominate neural network inference. The laboratory aims to bridge the gap between academic photonic computing demonstrations and commercially viable AI accelerator products.`,
   },
   {
     id: 'auto_d51dac38',
     title: 'PICs complement electronic circuits',
-    summary: '',
+    summary: 'Photonic integrated circuits are increasingly being co-designed with electronic ICs to create hybrid systems that leverage the strengths of both optical and electrical signal processing.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124465/PICs_complement_electronic_circuits',
     date: '2026-06-18',
@@ -520,60 +582,36 @@ next-generation photonic architectures.\n\nWhile photonic integrated circuits co
     region: 'global',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: ``,
+    content: `## PICs complement electronic circuits\n\nPhotonic integrated circuits are increasingly being designed as complementary components to electronic ICs rather than replacements, creating hybrid systems that leverage the strengths of both optical and electrical signal processing.\n\nIndustry experts note that the most successful photonic deployments combine optical components for data transport, wavelength management, and signal routing with electronic circuits for control, signal processing, and decision-making. This co-design approach is driving new EDA tools and design methodologies that bridge the photonic and electronic domains.\n\nThe trend toward electronic-photonic co-integration is accelerating with advances in advanced packaging technologies including 2.5D and 3D integration, which enable tight coupling between photonic and electronic dies while maintaining the distinct process optimisations required by each technology.`,
   },
   {
     id: 'auto_53a4d6e9',
     title: 'NTT launches $440M photonics fund',
-    summary: '',
+    summary: 'NTT Corporation establishes a $440 million investment fund dedicated to photonics and optical technology companies, targeting innovations in optical computing, communications, and sensing.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124448/NTT_launches_440M_photonics_fund',
     date: '2026-06-18',
     category: 'industry',
-    region: 'global',
+    region: 'japan',
     chipTags: ["Photonics"],
     importance: 'high',
-    content: ``,
+    content: `## NTT launches $440M photonics fund\n\nNTT Corporation has established a $440 million investment fund focused exclusively on photonics and optical technology companies worldwide, reflecting the Japanese telecommunications giant's strategic commitment to its IOWN (Innovative Optical and Wireless Network) vision.\n\nThe fund will target companies developing technologies across the photonics value chain including optical computing, silicon photonics manufacturing, advanced optical communications, and photonic sensing. NTT says the fund represents one of the largest dedicated photonics investment vehicles globally.\n\nNTT's IOWN initiative aims to transform network and computing infrastructure through end-to-end optical processing, eliminating power-intensive optical-to-electrical conversions. The investment fund is designed to accelerate the development of the photonic component ecosystem needed to realise this vision at commercial scale.`,
   },
   {
     id: 'auto_0f52f027',
     title: 'PhotonVentures on PIC investment',
-    summary: '',
+    summary: 'PhotonVentures discusses the growing investment landscape for photonic integrated circuit companies as demand accelerates from AI infrastructure, telecommunications, and sensing applications.',
     source: 'PIC Magazine',
     sourceUrl: 'https://picmagazine.net/article/124437/PhotonVentures_on_PIC_investment',
     date: '2026-06-18',
     category: 'industry',
-    region: 'global',
+    region: 'europe',
     chipTags: ["PIC"],
     importance: 'medium',
-    content: ``,
+    content: `## PhotonVentures on PIC investment\n\nPhotonVentures, the Netherlands-based venture capital firm specialising in photonics investments, has shared its perspective on the rapidly evolving investment landscape for photonic integrated circuit companies.\n\nThe firm notes that investor interest in photonics has increased significantly over the past two years, driven by growing demand for optical components in AI data center infrastructure, next-generation telecommunications networks, and emerging sensing applications. Deal sizes and valuations for photonics companies have risen accordingly.\n\nPhotonVentures highlights several key trends shaping PIC investment including the convergence of photonics with AI computing, the emergence of new material platforms such as thin-film lithium niobate, and the growing importance of photonic packaging and testing capabilities as the industry scales toward volume manufacturing.`,
   },
-  {
-    id: 'n1',
-    title: 'NVIDIA 宣布下一代 AI GPU 将全面采用 CPO 光互连',
-    summary: 'NVIDIA 在 GTC 2026 上发布 Blackwell Ultra 架构路线图...',
-    source: 'NVIDIA GTC 2026',
-    sourceUrl: 'https://nvidia.com',
-    date: '2026-06-02',
-    category: 'product',
-    region: 'us',
-    chipTags: ['CPO', 'Silicon Photonics'],
-    importance: 'high',
-    content: `NVIDIA CEO 黄仁勋在 GTC 2026 主题演讲中宣布...`
-  },
-  {
-    id: 'n999',
-    title: '新闻标题',
-    summary: '一两句摘要',
-    source: '来源名称',
-    sourceUrl: 'https://...',
-    date: '2026-06-17',
-    category: 'research',
-    region: 'china',
-    chipTags: ['Silicon Photonics', 'CPO'],
-    importance: 'high',
-    content: `详细内容，支持 Markdown 格式...`
-  },
+
+
   {
     id: 'n1',
     title: 'NVIDIA 宣布下一代 AI GPU 将全面采用 CPO 光互连',
