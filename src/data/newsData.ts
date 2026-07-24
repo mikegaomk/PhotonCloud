@@ -65,6 +65,29 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_482c11bc',
+    title: 'AMD and Anthropic partner on 2GW AI GPU deployment',
+    summary: 'AMD and Anthropic have unveiled a strategic partnership that combines a massive AI infrastructure deployment with a multi-year engineering collaboration, strengthening AMD&#8217;s position in the fast',
+    source: 'EE News',
+    sourceUrl: 'https://www.eenewseurope.com/en/amd-and-anthropic-partner-on-2gw-ai-gpu-deployment/',
+    date: '2026-07-23',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: `## AMD and Anthropic partner on 2GW AI GPU deployment
+
+AMD and Anthropic have unveiled a strategic partnership that combines a massive AI infrastructure deployment with a multi-year engineering collaboration, strengthening AMD’s position in the fast-growing AI compute market.
+
+The agreement will see Anthropic deploy up to 2GW of AMD Instinct MI450 Series GPUs in AMD Helios rack-scale systems, with the first gigawatt scheduled to come online in the first half of 2027. AMD also plans to make a strategic equity investment of up to $5 billion in Anthropic.
+
+For eeNews Europe readers, the announcement highlights how AI infrastructure is evolving from individual accelerators to full rack-scale platforms that combine processors, networking and software. It also underlines the growing importance of open AI software ecosystems as chip vendors compete for hyperscale AI deployments.
+
+The deployment comes as demand for AI training and inference capacity continues to accelerate. Anthropic is expanding its computing infrastructure to support increasing use of its Claude AI models, with the new deployment representing one of AMD’s largest AI infrastructure wins to date.
+
+Anthropic will deploy AMD Helios systems built around AMD Instinct MI455X GPUs from the MI450 Series, alongside AMD EPYC “Venice” CPUs, Pensando networking technology and ROCm software.`,
+  },
+  {
     id: 'auto_30a4df52',
     title: 'XIVER calls for manufacturable photonics',
     summary: '',
