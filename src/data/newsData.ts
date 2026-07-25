@@ -65,6 +65,56 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_e4e101fa',
+    title: 'Thermal modulator advances PICs',
+    summary: 'Researchers have developed a compact thermal polarisation modulator that uses a phase-change material to control light without moving parts, offering a new route to higher-capacity optical',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124814/Thermal_modulator_advances_PICs',
+    date: '2026-07-25',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC", "Laser"],
+    importance: 'medium',
+    content: `## Thermal modulator advances PICs
+
+Researchers have developed a compact thermal polarisation modulator that uses a phase-change material to control light without moving parts, offering a new route to higher-capacity optical communications and photonic computing.
+
+Researchers at the Skolkovo Institute of Science and Technology (Skoltech) have developed a prototype thermal polarisation modulator that controls light using a phase-change material rather than mechanical motion, paving the way for faster and more compact optical communication systems.
+
+Led by Nicolas Posunko, the team created the device using germanium-antimony-tellurium (GST), a phase-change material that reversibly switches between crystalline and amorphous states. Integrated into a microscopic diffraction grating, the GST layer changes the polarisation of transmitted light when heated, enabling optical switching without rotating components.
+
+The compact modulator, measuring less than one-hundredth of a square centimetre, demonstrates a non-mechanical approach to polarisation control that could improve the speed, reliability and scalability of integrated photonic systems.
+
+The proof-of-concept prototype used furnace annealing and laser scanning to maximise optical contrast, with future versions expected to employ faster electrical heating for practical applications.`,
+  },
+  {
+    id: 'auto_c8cbdbac',
+    title: 'Photonics21 backs preventive medicine',
+    summary: 'Professor Jürgen Popp says Europe must shift from reactive healthcare to predictive, photonics-enabled prevention to improve patient outcomes and reduce mounting healthcare costs.',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124813/Photonics21_backs_preventive_medicine',
+    date: '2026-07-25',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## Photonics21 backs preventive medicine
+
+Professor Jürgen Popp says Europe must shift from reactive healthcare to predictive, photonics-enabled prevention to improve patient outcomes and reduce mounting healthcare costs.
+
+Europe must fundamentally rethink its healthcare model by moving from treating disease to preventing it through photonics and artificial intelligence, according to Professor Jürgen Popp, a leading European scientist and advocate for photonics-driven healthcare innovation.
+
+Speaking as part of the Photonics21 Health Grand Challenge, Popp argued that Europe’s ageing population and rising healthcare costs make the current reactive approach unsustainable.
+
+Instead, he called for the adoption of predictive, preventive, personalised and participatory (P4) medicine, where diseases are detected at their earliest biological stages before symptoms appear.
+
+Photonics technologies, including advanced optical diagnostics and molecular sensing, are expected to play a central role in this transition.
+
+By analysing biological samples such as blood and saliva, combined with AI-driven data analysis, these technologies could provide continuous insights into an individual’s health and enable earlier intervention.
+
+Popp also highlighted the long-term vision of developing Personalised Optical Digital Twins—dynamic virtual models built from optical, molecular, clinical and lifestyle data that evolve alongside each individual.`,
+  },
+  {
     id: 'auto_482c11bc',
     title: 'AMD and Anthropic partner on 2GW AI GPU deployment',
     summary: 'AMD and Anthropic have unveiled a strategic partnership that combines a massive AI infrastructure deployment with a multi-year engineering collaboration, strengthening AMD&#8217;s position in the fast',
