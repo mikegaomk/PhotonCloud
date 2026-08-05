@@ -65,6 +65,60 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_33af8f5c',
+    title: 'OLIX raises $312M for optical AI platform',
+    summary: 'OLIX has secured $312 million in Series B funding to accelerate development of its optical interconnect-based AI computing platform and next-generation inference chips.',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124984/OLIX_raises_312M_for_optical_AI_platform',
+    date: '2026-08-05',
+    category: 'industry',
+    region: 'us',
+    chipTags: ["Optical Interconnect"],
+    importance: 'high',
+    content: `## OLIX raises $312M for optical AI platform
+
+OLIX has secured $312 million in Series B funding to accelerate development of its optical interconnect-based AI computing platform and next-generation inference chips.
+
+U.K.-based semiconductor and AI chip startup OLIX has raised $312 million in a Series B funding round to accelerate development of its optical interconnect-based AI computing platform.
+
+The investment values the company at $3.3 billion and supports the development of its DX-1 inference chip, scheduled for release in the second half of 2027.
+
+OLIX's architecture is built around a "slow and wide" optical interconnect that enables ultra-low-latency, energy-efficient communication between chips.
+
+Combined with rack-scale hardware and software co-design, the company says the approach allows AI models to be distributed across large numbers of specialized chips, improving performance for large-scale inference workloads.
+
+The funding will also support expansion of the company's custom silicon platform, manufacturing and supply chain activities, and recruitment across silicon, photonics, compiler and systems engineering teams in the U.K. and U.S.
+
+Alongside the financing, OLIX appointed networking pioneer Nick McKeown to its board of directors and named former Wise CFO Matt Briers as chief financial officer, strengthening its leadership team as it prepares to scale development of its next-generation AI infrastructure.`,
+  },
+  {
+    id: 'auto_f93c13e8',
+    title: 'Hybrid PIC broadens light generation',
+    summary: 'Researchers have combined Raman lasing and Kerr frequency comb generation in a hybrid silicon nitride–silica photonic chip, demonstrating a new approach to broadband on-chip light sources for',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124982/Hybrid_PIC_broadens_light_generation',
+    date: '2026-08-05',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC"],
+    importance: 'medium',
+    content: `## Hybrid PIC broadens light generation
+
+Researchers have combined Raman lasing and Kerr frequency comb generation in a hybrid silicon nitride–silica photonic chip, demonstrating a new approach to broadband on-chip light sources for integrated photonics.
+
+Researchers have demonstrated a hybrid photonic integrated circuit (PIC) that combines two nonlinear optical effects in separate materials, creating a broadband on-chip light source with potential applications in communications, sensing and precision measurement.
+
+Published in Advanced Photonics , the study introduces a silicon nitride ring resonator surrounded by a silica cladding, enabling Kerr frequency comb generation in the silicon nitride core while simultaneously harnessing Raman scattering in the silica layer.
+
+By allowing approximately 31% of the circulating optical field to overlap with the cladding, the device enables both materials to contribute distinct optical functions within a single integrated platform.
+
+The approach led to the first demonstration of Raman lasing in a silicon nitride integrated photonic device.
+
+As optical power increased, Raman-generated Stokes and anti-Stokes sidebands evolved into broadband Kerr frequency combs through four-wave mixing, producing comb spectra spanning more than 400 nm.
+
+The researchers also optimized the waveguide geometry to improve mode interactions, achieving a power conversion efficiency exceeding 32%.`,
+  },
+  {
     id: 'auto_e4e101fa',
     title: 'Thermal modulator advances PICs',
     summary: 'Researchers have developed a compact thermal polarisation modulator that uses a phase-change material to control light without moving parts, offering a new route to higher-capacity optical',
