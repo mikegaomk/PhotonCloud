@@ -65,6 +65,77 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_2b0b8da4',
+    title: 'Hungarian team advances neurophotonic',
+    summary: 'A new laser microscopy platform has enabled researchers to observe neuronal activity in three dimensions, leading to new insights into how the brain processes information.',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124992/Hungarian_team_advances_neurophotonic',
+    date: '2026-08-06',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["Laser"],
+    importance: 'medium',
+    content: `## Hungarian team advances neurophotonic
+
+A new laser microscopy platform has enabled researchers to observe neuronal activity in three dimensions, leading to new insights into how the brain processes information.
+
+An international research team led by Dr. Attila Losonczy of UT Southwestern Medical Center and Dr. Balázs Rózsa of BrainVisionCenter and the HUN-REN Institute of Experimental Medicine has combined a breakthrough in neurophotonics with new discoveries about brain function.
+
+Published in Neuron , the team's new optical imaging platform enables high-speed, three-dimensional recording of neuronal electrical activity using genetically encoded voltage indicators.
+
+The technology allows researchers to monitor individual neurons and their dendritic branches with high spatial and temporal resolution across large tissue volumes in awake, freely behaving animals.
+
+Unlike conventional electrode-based methods, the platform enables repeated long-term optical measurements over several months while maintaining signal quality.
+
+The researchers say the approach provides an unprecedented view of neuronal activity and opens new opportunities for studying learning, memory and brain disorders.
+
+Using the imaging system, the team reported in Science that dendrites the branching structures of neurons function as independent computational units capable of simultaneously processing information about past experiences, current environments and future learning.`,
+  },
+  {
+    id: 'auto_51e0f62a',
+    title: 'Q/C technologies appoints PIC development lead',
+    summary: 'The company has named silicon photonics veteran Yossef Ehrlichman to lead photonic integrated circuit development for its optical computing platform.',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/124990/Q_C_technologies_appoints_PIC_development_lead',
+    date: '2026-08-06',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["Silicon Photonics", "Photonic Computing", "PIC"],
+    importance: 'medium',
+    content: `## Q/C technologies appoints PIC development lead
+
+The company has named silicon photonics veteran Yossef Ehrlichman to lead photonic integrated circuit development for its optical computing platform.
+
+Q/C Technologies has appointed Yossef Ehrlichman, Ph.D., as Founding Manager, Photonic Integrated Circuit (PIC) Development to lead engineering for the company’s Optical Processing Unit (OPU) initiative.
+
+Dr. Ehrlichman will oversee the development of Q/C Technologies’ proprietary silicon photonic architecture, which is being designed to address the growing performance, bandwidth and energy-efficiency requirements of AI inference.
+
+He brings more than 15 years of experience in the design, fabrication and commercialisation of silicon photonic integrated circuits.
+
+During his career, he has led the design and tape-out of silicon, silicon nitride and hybrid PICs, as well as system integration, high-speed testing and product commercialisation. He has previously held senior engineering roles at Bascom Hunter Technologies, Raytheon and Axalume.
+
+Joshua Silverman, Executive Chairman of Q/C Technologies, said Dr. Ehrlichman’s experience developing silicon PICs from concept to commercialisation would strengthen the company’s engineering capabilities and support the advancement of its proprietary optical computing platform.`,
+  },
+  {
+    id: 'auto_cac3d3b1',
+    title: 'Elektor celebrates 65 years: Join the festivities with exclusive membership savings',
+    summary: 'This year marks a major milestone for Elektor, the company behind eeNews, as it celebrates its 65th anniversary. Throughout the coming months, Elektor will be highlighting its rich heritage and recogn',
+    source: 'EE News',
+    sourceUrl: 'https://www.eenewseurope.com/en/elektor-65-years-with-exclusive-membership-savings/',
+    date: '2026-08-03',
+    category: 'industry',
+    region: 'europe',
+    chipTags: ["Photonics"],
+    importance: 'high',
+    content: `## Elektor celebrates 65 years: Join the festivities with exclusive membership savings
+
+This year marks a major milestone for Elektor, the company behind eeNews, as it celebrates its 65th anniversary . Throughout the coming months, Elektor will be highlighting its rich heritage and recognizing the vibrant community that has helped shape Elektor into what it is today. Since 1961, Elektor Magazine has served as a trusted source of electronics knowledge for engineers, developers, entrepreneurs, and technology companies. At the heart of Elektor is a passionate global network of electronics enthusiasts, ranging from students and hobbyists to experienced professionals, all dedicated to innovation and knowledge sharing. Over the coming months, Elektor will be offering a range of exciting deals through various promotions for both our existing and new customers.
+
+To mark this special anniversary, Elektor is giving readers the opportunity to become part of the Elektor community at highly reduced subscription rates .
+
+For a limited time, the Elektor Green Membership is available for only €65 (including VAT), compared to the standard annual price of €99. Members receive the full range of Green Membership benefits, including access to eight digital magazine editions per year, the complete Elektor archive covering 65 years of electronics history, and participation in the Elektor Labs community .`,
+  },
+  {
     id: 'auto_33af8f5c',
     title: 'OLIX raises $312M for optical AI platform',
     summary: 'OLIX has secured $312 million in Series B funding to accelerate development of its optical interconnect-based AI computing platform and next-generation inference chips.',
