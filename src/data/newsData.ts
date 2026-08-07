@@ -65,6 +65,33 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_0648a229',
+    title: 'Waveguide-free photonic chips',
+    summary: 'A naturally hyperbolic van der Waals material has enabled directional light transport without fabricated waveguides, offering a new approach for integrated photonics and on-chip optical',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/125004/Waveguide-free_photonic_chips',
+    date: '2026-08-07',
+    category: 'industry',
+    region: 'global',
+    chipTags: ["PIC", "Laser"],
+    importance: 'medium',
+    content: `## Waveguide-free photonic chips
+
+A naturally hyperbolic van der Waals material has enabled directional light transport without fabricated waveguides, offering a new approach for integrated photonics and on-chip optical communications.
+
+Researchers from the University of Stuttgart and the Istituto Italiano di Tecnologia (IIT) have demonstrated a new mechanism for directing light through a naturally hyperbolic material without the need for conventional nanofabricated waveguides, opening new possibilities for photonic integrated circuits.
+
+Published in Nature Nanotechnology, the research uses the two-dimensional material molybdenum oxy-dichloride (MoOCl₂) to naturally confine and guide light.
+
+By illuminating a nanoscale gold antenna on the material's surface with infrared laser light, the team generated highly confined optical waves that propagated along a single direction without any lithographically defined waveguide.
+
+The effect, termed plasmon canalization, arises from the material's intrinsic crystal properties. MoOCl₂ exhibits metallic behaviour along one crystallographic axis, supporting surface plasmons, while behaving as a dielectric along the perpendicular axis.
+
+This strong optical anisotropy naturally channels light through a narrow path.
+
+The researchers also demonstrated that the propagation behaviour can be tuned simply by changing the excitation wavelength.`,
+  },
+  {
     id: 'auto_2b0b8da4',
     title: 'Hungarian team advances neurophotonic',
     summary: 'A new laser microscopy platform has enabled researchers to observe neuronal activity in three dimensions, leading to new insights into how the brain processes information.',
