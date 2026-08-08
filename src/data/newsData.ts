@@ -65,6 +65,33 @@ const NEWS_STORAGE_KEY = 'photonics_news'
 
 const initialNews: NewsItem[] = [
   {
+    id: 'auto_012c0643',
+    title: 'China protects photonic chip designs',
+    summary: 'Revised regulations will bring photonic and quantum integrated circuit layouts under China\'s intellectual property framework, strengthening protection for next-generation chip designs.',
+    source: 'PIC Magazine',
+    sourceUrl: 'https://picmagazine.net/article/125023/China_protects_photonic_chip_designs',
+    date: '2026-08-08',
+    category: 'industry',
+    region: 'china',
+    chipTags: ["Photonics"],
+    importance: 'medium',
+    content: `## China protects photonic chip designs
+
+Revised regulations will bring photonic and quantum integrated circuit layouts under China's intellectual property framework, strengthening protection for next-generation chip designs.
+
+China has revised its integrated circuit layout-design regulations to explicitly extend intellectual property protection to photonic and quantum chip layouts, marking a significant policy update for emerging chip technologies.
+
+The revised Regulations on the Protection of Layout Designs of Integrated Circuits, adopted by China's State Council, take effect on 15 October 2026.
+
+Among the key changes is an updated definition of integrated circuits that broadens the scope of protection beyond conventional semiconductor designs to include photonic and quantum integrated circuits.
+
+The regulations also introduce stricter requirements for layout-design registration, including originality statements, while allowing third parties to challenge registrations through a formal revocation process.
+
+The revised framework strengthens enforcement by expanding remedies for infringement and reinforcing legal protection for registered chip layouts.
+
+The policy follows growing activity in photonic and quantum integrated circuit development, with experts cited alongside the regulations noting increasing innovation in these fields.`,
+  },
+  {
     id: 'auto_0648a229',
     title: 'Waveguide-free photonic chips',
     summary: 'A naturally hyperbolic van der Waals material has enabled directional light transport without fabricated waveguides, offering a new approach for integrated photonics and on-chip optical',
